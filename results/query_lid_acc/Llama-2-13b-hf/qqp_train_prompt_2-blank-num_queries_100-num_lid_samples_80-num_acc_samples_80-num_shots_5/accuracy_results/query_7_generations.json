@@ -1,0 +1,562 @@
+[
+    {
+        "prompt": "Are the questions \"Which test IELTS or PTE is better for a person with good knowledge of English?\" and \"Is IELTS or pte easier?\" asking the same thing?\nyes\n\nAre the questions \"What are some of the best business credit cards for startups?\" and \"What are the best business credit cards?\" asking the same thing?\nno\n\nAre the questions \"Does Hinduism support evolution?\" and \"Does Hinduism believe in  evolution?\" asking the same thing?\nyes\n\nAre the questions \"Which exercise type help you to increase your height?\" and \"How do I increase my height?\" asking the same thing?\nyes\n\nAre the questions \"I postponed my ssb medical interview but couldn't come back on the day given. Can I join army by giving CDS again?\" and \"What would happen if a person got merit out of the SSB? Will he have to give the SSB again?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"What are the strengths and weaknesses of the advising system at Central Connecticut State?\" and \"What are the strengths and weaknesses of the advising system at Connecticut College?\" asking the same thing?\nno\n\nAre the questions \"\"Which word is the correct one \"\"outlines\"\" or \"\"outline\"\"?\"\" and \"\"How can I write a good outline of the play \"\"Hamlet\"\"?\"\" asking the same thing?\nno\n\nAre the questions \"Why there is no full windshield car HUD yet?\" and \"What is the best HUD system you have used till date?\" asking the same thing?\nno\n\nAre the questions \"My boyfriend says that he loves me and he wants to marry me. He doesn\u2019t really care much about me. What do i do?\" and \"If he thinks sex is only to get a nut and would prefer to masturbate most of the time instead of having sex with me, should I break up with him? Or am I am taking this too personal?\" asking the same thing?\nno\n\nAre the questions \"How can I increase traffic very soon on my blog?\" and \"How can I increase the traffic on my website without investing?\" asking the same thing?\nyes\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"I'm a 5 letter word. I am normally below you. If you remove my 1st letter, you'll find me above you. If you remove my 1st & 2nd letters, you can't see me. What am I?\" and \" I am a 5 letter word.  I am normally below u  If u remove my 1st letter   u'll find me above u  If u remove my 1st & 2nd letters  u cant see me  Answer is really very interesting  Let us see who solves this.... \u23f0Time limit :- today U can also send to other grps if I?\" asking the same thing?\nyes\n\nAre the questions \"Will chemical engineers be demand in the future?\" and \"What are the career options after graduating from chemical engineering?\" asking the same thing?\nno\n\nAre the questions \"How can I stop thinking about my ex with another person?\" and \"How can I stop thinking of a person?\" asking the same thing?\nno\n\nAre the questions \"Should women dress more modestly when in a relationship?\" and \"Is it okay for me to ask my girlfriend to dress more modestly?\" asking the same thing?\nno\n\nAre the questions \"What is the best way to overcome a drug addiction?\" and \"How did you overcome your drug addiction?\" asking the same thing?\nyes\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"What are the best books or site to prepare essays for XAT?\" and \"Which is the best book to prepare for xat?\" asking the same thing?\nyes\n\nAre the questions \"I am 16 years old and I want to become a professional footballer? What should I do?\" and \"I am turning 16 now and I want to become a professional footballer? What should I do?\" asking the same thing?\nyes\n\nAre the questions \"What do you think of this poem that I wrote?\" and \"What do you think of this poem I wrote?\" asking the same thing?\nyes\n\nAre the questions \"I asked a girl out she didn't reply to my message. But she is reading my message without replying. What should I do?\" and \"I love a girl who is my junior, but she is too rude, even she does not reply my messages. What should I do?\" asking the same thing?\nno\n\nAre the questions \"Gyms and Workout Facilities: Are taking protein powder supplements good for health?\" and \"Is taking protein during a workout good for health?\" asking the same thing?\nyes\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"What does it take to be a plastic surgeon?\" and \"How can you become a plastic surgeon?\" asking the same thing?\nno\n\nAre the questions \"What are the highest converting sites that rely solely on banner/ CPC advertising revenue?\" and \"How can roller banner help in advertising a business?\" asking the same thing?\nno\n\nAre the questions \"How does 1 Billion Rising stop violence against women?\" and \"Why does India have such a huge problem with violence against women?\" asking the same thing?\nyes\n\nAre the questions \"How can I clear GATE 2017 (CE) in 3 months?\" and \"Can we get below a 100 rank in the GATE CE with preparation of 3 months?\" asking the same thing?\nno\n\nAre the questions \"Has Quora turned into a political hack for Clinton?\" and \"Does Quora support Hillary Clinton?\" asking the same thing?\nyes\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"What should I learn after C++?\" and \"Which language should I learn after C++?\" asking the same thing?\nno\n\nAre the questions \"Which is a good book by John Green?\" and \"Which is the best book by John green and why?\" asking the same thing?\nyes\n\nAre the questions \"Is there something like a mid-career crisis?\" and \"Mid-Career Crisis - Should I do an MBA?\" asking the same thing?\nno\n\nAre the questions \"Is Earth a black hole?\" and \"Is Earth in a black hole?\" asking the same thing?\nno\n\nAre the questions \"What are some recipes for a Marsala Alfredo sauce?\" and \"What is the best way to burn parchment paper?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"Is there any way to get your ex-girlfriend back after a one year ugly breakup?\" and \"Should I get married after a breakup with an ex?\" asking the same thing?\nno\n\nAre the questions \"How can I slowly lose weight?\" and \"How can I lose post marriage weight?\" asking the same thing?\nyes\n\nAre the questions \"What are some of the contrasting aspects of India?\" and \"What are some contrasting aspects of Hinduism?\" asking the same thing?\nno\n\nAre the questions \"Why does each US state have its own constitution if the US Constitution is the law of the land?\" and \"To what extent does the US constitution allow a state to implement full socialism?\" asking the same thing?\nno\n\nAre the questions \"Why should we protect threaten and endangered species?\" and \"How are endangered species protected?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"What are the differences between civil engineering and construction engineering?\" and \"What is the main difference between electrical and electronics?\" asking the same thing?\nno\n\nAre the questions \"How do you request dash cam video, police officer's records for past speeding tickets issued and radar related evidence for a traffic trial in Texas?\" and \"\"What are the consequences of a \"\"hit and run\"\" ticket?\"\" asking the same thing?\nno\n\nAre the questions \"How can you make over $10,000 monthly selling on Amazon and drop shipping?\" and \"Can you make over 600,000 a year selling on Amazon?\" asking the same thing?\nno\n\nAre the questions \"Which is a suitable inpatient drug and alcohol rehab center near Gem County ID?\" and \"Which is a suitable inpatient drug and alcohol rehab center near Valley County ID?\" asking the same thing?\nno\n\nAre the questions \"What do Russians think of the Romanovs?\" and \"What do RussianS think about romanov family?\" asking the same thing?\nyes\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"What are the options if my daughter not got seat in IIT or NIT. At present she is under coaching in Allen, Kota. This year she is in class 11th.?\" and \"Who is won indutal medal?\" asking the same thing?\nno\n\nAre the questions \"What would be worth it - to be a software engineer or an electrical engineer?\" and \"Is becoming a software engineer worth it?\" asking the same thing?\nno\n\nAre the questions \"How do you dye armor in Minecraft?\" and \"Why do a lot of people hate Minecraft?\" asking the same thing?\nno\n\nAre the questions \"How do I apply machine learning in an android app?\" and \"How does RAM cleaner works in Android?\" asking the same thing?\nno\n\nAre the questions \"What is the difference between mechanical and automobile engineering?\" and \"What is the difference between automotive and automobile engineering?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"What royalties does a band receive when its song is selected (and played repeatedly) as the theme song for a television show?\" and \"Does the band Inner Circle make royalties from the song Bad Boys, every time Cops airs?\" asking the same thing?\nno\n\nAre the questions \"What is the formula of Ohm's law?\" and \"What does the formula V=IR mean in Ohm's law?\" asking the same thing?\nno\n\nAre the questions \"What is the best answer for tell me about your self in an interview?\" and \"What should be the best answer for tell me something about yourself?\" asking the same thing?\nyes\n\nAre the questions \"How can I cope with fear of flying?\" and \"How can one get over a fear of flying?\" asking the same thing?\nyes\n\nAre the questions \"What did the Declaration of Independence do?\" and \"What is the importance of the Declaration of Independence?\" asking the same thing?\nyes\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "yes\n\nAre the questions \"",
+        "score": false,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Are the questions \"What is your 2017 New Year\u2019s resolution?\" and \"What's your New Year resolutions for 2017 and what will you do to accomplish your goal?\" asking the same thing?\nyes\n\nAre the questions \"Have you ever had a dream that you wished would happen in reality?\" and \"Have you ever had a dream happen in reality?\" asking the same thing?\nyes\n\nAre the questions \"Why is the Large Hadron Collider so big?\" and \"Why is the Large Hadron Collider important?\" asking the same thing?\nno\n\nAre the questions \"\"How does it feel when your crush called you as \"\"Brother\"\"?\"\" and \"Does protein make you fat if you just take it and not workout?\" asking the same thing?\nno\n\nAre the questions \"How many 4 digit numbers can be formed from 1,2,4,5,7 and 8?\" and \"Using 1,2,3,4,5,6 how many 4 digit combinations are there?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"Why do some people on QUORA ask questions that they can easily findout on Google?\" and \"Why do people ask questions here in Quora instead of just googling?\" asking the same thing?\nyes\n\nAre the questions \"Why are peanuts available for free at Five Guys?\" and \"Can you get cheese on Five Guys fries?\" asking the same thing?\nno\n\nAre the questions \"How can I open my Facebook account I forgot my password and Gmail?\" and \"How can I log in to Facebook if I forgot my email?\" asking the same thing?\nyes\n\nAre the questions \"Why a large percentage of Muslims in India is against BJP?\" and \"Why do Muslims hate the BJP?\" asking the same thing?\nyes\n\nAre the questions \"\"What is the meaning of \"\"You are pretty, yourself\"\"? Why add the word yourself at the back?\"\" and \"What does it mean to cut yourself short? What's the origin of that phrase?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"Why are extra dimensions (11) required for string theory to explain black holes?\" and \"What are the 11 dimensions in string theory?\" asking the same thing?\nno\n\nAre the questions \"How many generations of marrying white people and having children with them would it take for them to become Caucasian?\" and \"When a minority is rich, why do many white people find it difficult to believe? (definitely not all white people tho; just a huge portion of them)\" asking the same thing?\nno\n\nAre the questions \"Why can't Pirate Bay just be stopped by raiding their servers?\" and \"How do websites like The Pirate Bay survive?\" asking the same thing?\nyes\n\nAre the questions \"Are there some discrepancies in the official answer key by CBSE for NEET Phase 2 AA set?\" and \"Are there some discrepancies in the official answer key by CBSE for NEET Phase 2?\" asking the same thing?\nno\n\nAre the questions \"What is the capital city of France?\" and \"What is the capital city of Argentina?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"What does it feel like to be on morphine?\" and \"How safe can it be to use morphine for a migraine?\" asking the same thing?\nno\n\nAre the questions \"How do I get the best deals for a cruise?\" and \"How can I get the absolute best deal on a cruise?\" asking the same thing?\nyes\n\nAre the questions \"What is the internet? Can we build another one?\" and \"Can we create another thing like internet?\" asking the same thing?\nyes\n\nAre the questions \"What can I do to hack a university website or database?\" and \"How can I hack the server of an university website?\" asking the same thing?\nno\n\nAre the questions \"What is the best phone I can buy under the price of 15000?\" and \"What are the best phones under 15000 in india?\" asking the same thing?\nyes\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"Can I fill asylum case in Australia while I filed a case in USA?\" and \"NEET prepration 2017?\" asking the same thing?\nno\n\nAre the questions \"What American people think of Brazilians?\" and \"What do people think of Americans?\" asking the same thing?\nno\n\nAre the questions \"What is mathematical logic?\" and \"How is philosophical logic related to mathematical logic?\" asking the same thing?\nno\n\nAre the questions \"If we throw a ball in a very fast moving vehicle, why does it come straight back to our hands and not fall behind us?\" and \"While sitting in a moving bus, if we throw a ball upwards, why does it still come back to our hands instead of falling behind?\" asking the same thing?\nyes\n\nAre the questions \"What are the best Beers in Hyderabad?\" and \"What is the best beer?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"What happens if an engineering college refuses to follow government order in India?\" and \"What will happen if a high court gives an order, and police and government doesn't follow it?\" asking the same thing?\nno\n\nAre the questions \"\"What is the best answer to \"\"introduce yourself \"\" for a fresher in job interviews?\"\" and \"\"What would be your answer to the interview question \"\"introduce yourself\"\"?\"\" asking the same thing?\nno\n\nAre the questions \"What is the future of Iran?\" and \"What's the future of Iran?\" asking the same thing?\nyes\n\nAre the questions \"How do I prepare for TOEFL or IELTS?\" and \"How do I prepare for the toefl exam?\" asking the same thing?\nyes\n\nAre the questions \"What is link juice?\" and \"What is link juice in seo?\" asking the same thing?\nyes\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"Can you make Bisquick pancakes without eggs?\" and \"What is an easy way to make better box mix pancakes?\" asking the same thing?\nno\n\nAre the questions \"How can I make an extra $1000 a month?\" and \"What can I do to make an extra $1000?\" asking the same thing?\nyes\n\nAre the questions \"Why was Cyrus Mistry removed as the chairman of Tata Sons?\" and \"Why was cyrus mistry sacked?\" asking the same thing?\nyes\n\nAre the questions \"What is the pass percentage of Chartered Accountancy exams?\" and \"Why is the pass percentage of chartered accountancy exams so low?\" asking the same thing?\nno\n\nAre the questions \"How can I start as a freelancer?\" and \"How should I start work with freelancer?\" asking the same thing?\nyes\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"Which is better: CS in BITS Pilani vs IIT BHU?\" and \"Which is better: IIT BHU or BITS, Pilani?\" asking the same thing?\nno\n\nAre the questions \"How can one improve efficiency of bearing?\" and \"How can I improve my efficiency?\" asking the same thing?\nno\n\nAre the questions \"Why is Saltwater taffy candy imported in Switzerland?\" and \"Why is Saltwater taffy candy imported in the Philippines?\" asking the same thing?\nyes\n\nAre the questions \"How do I suck it up and lose weight?\" and \"How can I efficiently lose weight?\" asking the same thing?\nyes\n\nAre the questions \"Do employees at Select Income REIT have a good work-life balance? Does this differ across positions and departments?\" and \"Do employees at Pennsylvania REIT have a good work-life balance? Does this differ across positions and departments?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "yes\n\nAre the questions \"",
+        "score": false,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Are the questions \"What are some mind blowing bike inventions technology that most people don't know about?\" and \"What are some mind-blowing bike inventions that exist that most people don't know about?\" asking the same thing?\nyes\n\nAre the questions \"What are some motivational pics that inspire you?\" and \"What are some good inspirational movies?\" asking the same thing?\nno\n\nAre the questions \"What's the best entry book for topology?\" and \"What is a good beginners book on topology?\" asking the same thing?\nyes\n\nAre the questions \"What is the best way to teach a child how to swim?\" and \"Is it best for children to teach swim by parents?\" asking the same thing?\nyes\n\nAre the questions \"What is beyond the three dimensions?\" and \"Which are the three dimensions?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"Do employees at Immune Design have a good work-life balance? Does this differ across positions and departments?\" and \"Do employees at Sigma Designs have a good work-life balance? Does this differ across positions and departments?\" asking the same thing?\nno\n\nAre the questions \"Who would win in a fight, Bruce Lee or Muhammad Ali?\" and \"Who would win a fight Bruce Lee or Muhammad Ali?\" asking the same thing?\nyes\n\nAre the questions \"What is the impact of GST on insurance sector?\" and \"What will be the impact of GST on IT Sector?\" asking the same thing?\nno\n\nAre the questions \"How long does it take to learn to play piano?\" and \"How long does it take to lear how to play piano?\" asking the same thing?\nyes\n\nAre the questions \"Will rebooting the phone erases all the data which is in my phone?\" and \"Can I remotely lock or erase my phone if it is stolen?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"How should I start preparing for the CFA Level 1 exam?\" and \"What is the best way for preparing CFA Level - 1 Exam?\" asking the same thing?\nyes\n\nAre the questions \"How do I raise a fund for a startup IT company?\" and \"How can I raise funding for my startup?\" asking the same thing?\nno\n\nAre the questions \"Why is Generation X so frustrated?\" and \"What is so great about Generation X?\" asking the same thing?\nno\n\nAre the questions \"How do I tackle physics if you are preparing for aipmt?\" and \"How do I prepare for a medical entrance exam from 11th STD?\" asking the same thing?\nno\n\nAre the questions \"What do you understand about what Mike Maloney describes as the biggest scam in the history of mankind?\" and \"\"How true are \"\"The Biggest Scam in the History of Mankind\"\" video's claims about the U.S. and international monetary systems?\"\" asking the same thing?\nyes\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"What are the best guitars for the price?\" and \"What is the best guitar?\" asking the same thing?\nyes\n\nAre the questions \"What are your favourite fruits and vegetables?\" and \"What's your favourite vegetable?\" asking the same thing?\nno\n\nAre the questions \"Is staph infection airborne? If so, what measures should be taken?\" and \"How is the light from a lighthouse produced?\" asking the same thing?\nno\n\nAre the questions \"Why do characters that get three wishes not wish for more wishes?\" and \"Can we get whatever we wish?\" asking the same thing?\nno\n\nAre the questions \"What does it mean when a person shouts out Allah akbar?\" and \"\"What does it mean when a person shouts out \"\"Allah Akbar\"\"?\"\" asking the same thing?\nyes\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"What is the history of government?\" and \"What is the history of the government of Nepal?\" asking the same thing?\nno\n\nAre the questions \"Are most animals unhappy in zoos?\" and \"Is it unethical to keep animals in zoo?\" asking the same thing?\nno\n\nAre the questions \"How secured is the new 2000 and 500 currency notes?\" and \"Why are some news channel and people saying that the new 500 and 2000 notes cannot be faked?\" asking the same thing?\nyes\n\nAre the questions \"\"Do you agree with Donald Trump that \"\"political correctness\"\" has gone too far? Why or why not?\"\" and \"Has political correctness gone too far?\" asking the same thing?\nno\n\nAre the questions \"What is a good solar panel installation provider near Scottsdale, Arizona AZ?\" and \"What is a good solar panel installation provider near Eloy, Arizona AZ?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"Why should I study physics?\" and \"Why do people study physics?\" asking the same thing?\nyes\n\nAre the questions \"How much do you earn via your Android app [paid or free]?\" and \"How much can an Android App with 50,000+ downloads earn from ads only?\" asking the same thing?\nno\n\nAre the questions \"What are the good examples to explain the Prisoners' Dilemma to a 4 year old child?\" and \"How do I explain what is happening in Greece to a 15-year-old?\" asking the same thing?\nno\n\nAre the questions \"Can I dynamically declare an array in C++?\" and \"How do I declare Three 2D arrays dynamically in C?\" asking the same thing?\nyes\n\nAre the questions \"Is Udacity's job placement guarantee legit?\" and \"What do you think about Udacity's Nanodegree Plus? Can I really get a job by learning in that site? Its guaranteed?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"Why do antibiotics cause acne?\" and \"Is it possible for antibiotics to cause acne?\" asking the same thing?\nyes\n\nAre the questions \"Does a shooting star really fulfill wishes?\" and \"It is said that Karma creates your fate and hence future. Then, why do we pray to God instead of religiously working to fulfill our wishes?\" asking the same thing?\nno\n\nAre the questions \"What are the things that make luxury watches so much more valuable and expensive than other lower quality, cheaper watches?\" and \"What makes a Bulova watch different than other watches?\" asking the same thing?\nno\n\nAre the questions \"What are the legal separation laws in PA and how do they compare with the ones in Washington?\" and \"What are the legal separation laws in PA and how do they compare with the ones in Delaware?\" asking the same thing?\nno\n\nAre the questions \"What app can i use to track my boyfriend without his phone?\" and \"How can I read my husbands secret WhatsApp messages without using his phone?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"Is it bad to eat paper?\" and \"Is eating the same thing every day healthy?\" asking the same thing?\nno\n\nAre the questions \"What does it take to create a social media android app?\" and \"How do I create a social networking app?\" asking the same thing?\nyes\n\nAre the questions \"Are there certain rules that humanity should follow so that the world is a better place?\" and \"Is re-branding an art or a technique? Are there some rules that define how re-branding should take place?\" asking the same thing?\nno\n\nAre the questions \"If my ex and I get back together after a month long break up, should we treat it as a new relationship or a continuation?\" and \"I broke up with my ex 4 moths ago after 6 months of relationship would he come back? How do I get over it?\" asking the same thing?\nno\n\nAre the questions \"If AI becomes more intelligent than man, doesn't that probabilistically mean that there must be creatures way more intelligent than AI? God?\" and \"Anyone ever falsify what you did at a previous job, to get hired at a new one?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"Will apple release a new MacBook Pro soon?\" and \"When will Apple launch new MacBook Pro? Is it in 2016?\" asking the same thing?\nyes\n\nAre the questions \"How do I ask someone to hangout with me if I am depressed and never wanna do anything or be around anyone?\" and \"How do I respond when someone offers me a smoke or asks me if I smoke?\" asking the same thing?\nno\n\nAre the questions \"What would you do if you see your husband cry?\" and \"Why does my husband lie? See details.\" asking the same thing?\nno\n\nAre the questions \"Which is the best coaching institute for GMAT in mumbai?\" and \"What is the best GMAT coaching institute in Hyderabad?\" asking the same thing?\nno\n\nAre the questions \"How does a long distance relationship work?\" and \"What is the secret of keeping a successful long distance relationship?\" asking the same thing?\nyes\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"What does it mean when a battery has more volts?\" and \"What do volts and amperage mean?\" asking the same thing?\nno\n\nAre the questions \"How do I finish my JEE syllabus in 2 months?\" and \"How do I complete a JEE Syllabus in 1 year?\" asking the same thing?\nno\n\nAre the questions \"What is sin in physics?\" and \"What's your sin?\" asking the same thing?\nno\n\nAre the questions \"How can I join ISRO and become an electrical engineer?\" and \"How can one BE mechanical engineer join ISRO?\" asking the same thing?\nno\n\nAre the questions \"Should I join JK lakshmi cement?\" and \"Why do marketers want to know about education level?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"What is the best response when someone talks to you and you do not care to talk to that person?\" and \"The person who was ignoring me started talking again. What should be my response?\" asking the same thing?\nno\n\nAre the questions \"Who is the most inspirational person to you?\" and \"Who is the most inspirational person and how?\" asking the same thing?\nyes\n\nAre the questions \"Why did MS Dhoni quit ODI and T20 captaincy but will still play?\" and \"Why has Dhoni left the captaincy from ODI and T20?\" asking the same thing?\nyes\n\nAre the questions \"When we can't create object of abstract class then why java allow defining a constructor in its body?\" and \"Why do we intialize the object in Java by default constructor?\" asking the same thing?\nno\n\nAre the questions \"Which is the best way to prepare for SSC CGL at home or by ourselves without coaching?\" and \"How do I crack the SSC CGL exam without coaching?\" asking the same thing?\nyes\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "yes\n\nAre the questions \"",
+        "score": false,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Are the questions \"I want to show travel packages in my site from different vendors like MakeMyTrip, Yatra and call. Would they charge for their APIs?\" and \"How good are the package European trips offered by OTAs like MakeMyTrip or Yatra? Are they upfront about the costs or are there any hidden costs too?\" asking the same thing?\nno\n\nAre the questions \"Why do fruits become sweeter as they ripen? Where does the sweetness (sugar) come from, and what is the evolutionary reason for it?\" and \"Where does the fruit in New York come from?\" asking the same thing?\nno\n\nAre the questions \"How do you overcome depression and loneliness?\" and \"How do I overcome clinical depression?\" asking the same thing?\nyes\n\nAre the questions \"What is the difference between FDI and FII?\" and \"How does the FDI and FII help in the Indian economy?\" asking the same thing?\nno\n\nAre the questions \"What are some mind-blowing technologies tools that exist that most people don't know about?\" and \"What are some mind-blowing technologies things that exist that most people don't know about?\" asking the same thing?\nyes\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"How do I know what interests me the most?\" and \"How can I know what is my interest?\" asking the same thing?\nyes\n\nAre the questions \"What freedoms do women have?\" and \"What is freedom for you?\" asking the same thing?\nno\n\nAre the questions \"Is talent nature or nurture?\" and \"Entrepreneurialism\u2014nature or nurture?\" asking the same thing?\nno\n\nAre the questions \"Is ice cream good to eat when you have a fever? Why or why not?\" and \"Can we eat ice cream when the weather is cold?\" asking the same thing?\nno\n\nAre the questions \"What is the last thing you want to do before you die?\" and \"What are some things you want to accomplish before you die?\" asking the same thing?\nyes\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"What is Balaji Viswanathan's opinion on the Indian Prime Minister Modi's new policy about illegalization of 500 and 1000 currency notes?\" and \"What do you think about ban on Rs. 500 and Rs. 1000 currency notes?\" asking the same thing?\nyes\n\nAre the questions \"Why do some smart people abuse drugs?\" and \"Why do so many smart people consume drugs?\" asking the same thing?\nyes\n\nAre the questions \"How can you improve your intelligence?\" and \"How can I improve my intelligence?\" asking the same thing?\nyes\n\nAre the questions \"Software Engineering Augsburg?\" and \"\"Are there any cases of \"\"Homer Simpson Syndrome\"\" in nature, where an organism has an unusually large amount of cerebrospinal fluid?\"\" asking the same thing?\nno\n\nAre the questions \"How many no of engineering colleges are in Delhi NCR?\" and \"What can be the ranking of the engineering colleges (mention private/government funded) in Delhi NCR?\" asking the same thing?\nyes\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "yes\n\nAre the questions \"",
+        "score": false,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Are the questions \"If insurance companies cover pre-existing conditions, what's stopping people from only buying insurance when they need it?\" and \"Why was Alcatraz abandoned?\" asking the same thing?\nno\n\nAre the questions \"How is skin color determined in babies?\" and \"What determines whether a baby is considered cute?\" asking the same thing?\nno\n\nAre the questions \"What are some of the best horror movies, with sex, and nudity?\" and \"What are some of the best horror movies, without rape, sex, and nudity?\" asking the same thing?\nno\n\nAre the questions \"\"Was Bobby Fischer right in his crusade against the \"\"Russian Chess Machine\"\"?\"\" and \"What is it like to meet Bobby Fischer?\" asking the same thing?\nno\n\nAre the questions \"Which songs keep you always motivated?\" and \"Which are your best songs that always motivate you?\" asking the same thing?\nyes\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "yes\n\nAre the questions \"",
+        "score": false,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Are the questions \"What are some major problems faced by girls during their periods?\" and \"How does a girl feel during her first period?\" asking the same thing?\nno\n\nAre the questions \"Is houseofnames.com accurate?\" and \"Is loveculator.com accurate?\" asking the same thing?\nno\n\nAre the questions \"Sedimentology: How do lake depositional environments show up on the sedimentary layer of a sedimentary rock?\" and \"Sedimentology: How do shallow water depositional environments show up on the sedimentary layer of a sedimentary rock?\" asking the same thing?\nno\n\nAre the questions \"How many cigarettes have you smoked till now? How healthy do you feel?\" and \"If AI can not simulate human emotion\uff0cwhat can be the main difficulties\uff1f?\" asking the same thing?\nno\n\nAre the questions \"What are the best ways to improve my English because I'm not good in English?\" and \"How could I improve my English?\" asking the same thing?\nyes\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"What does spirituality mean?\" and \"What does spirituality mean to you?\" asking the same thing?\nno\n\nAre the questions \"What is your New Year Resolution?\" and \"What are some meaningful new year resolutions for 2017?\" asking the same thing?\nyes\n\nAre the questions \"What subjects do I need to take in high school to study psychology at varsity and then further my studies to become a neuropsychologist?\" and \"If I am an American high school-aged learner and want to study psychology in the UK, what do I have to do?\" asking the same thing?\nno\n\nAre the questions \"Which are the top places to visit in Kerala?\" and \"What are some good beaches to visit in Kerala?\" asking the same thing?\nyes\n\nAre the questions \"Microeconomics: What is the difference between opportunity costs and implicit costs?\" and \"In economics, how can the opportunity cost and the marginal cost be simply separated?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"When missiles are launched they usually spin about their axis, so how can a seeker guide the missile while the entire missile body is spinning?\" and \"How does spin affect the trajectory of a body in motion, such as a bullet, ball, or missile? Do fluid profiles over spinning & non-spinning bodies differ?\" asking the same thing?\nno\n\nAre the questions \"Are introverts more likely to experience depression compared to extroverts?\" and \"Is depression more common in introverts compared to extroverts?\" asking the same thing?\nyes\n\nAre the questions \"What is whipped cream?\" and \"How was whipped cream in a can invented?\" asking the same thing?\nno\n\nAre the questions \"If A and B are two vectors, what is the angle between (A*B) =(A.B)?\" and \"If A and B are two vectors, what is the angle between (A + B) and (A \u00d7 B)?\" asking the same thing?\nno\n\nAre the questions \"Why do my hands sweat when I am cold?\" and \"What should I do if my feet are sweating when I'm cold?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"What is the difference between God and religion, because without God there is no religion, right?\" and \"What is the best 7 day itinerary for family with toddler to New Zealand?\" asking the same thing?\nno\n\nAre the questions \"What will happen during divorce counselling at a family court in Bangalore?\" and \"Do I need to go to court to get a divorce?\" asking the same thing?\nno\n\nAre the questions \"\"Why does the U.S. resume the talk with Russia over Syria after the U.S. has announced \"\"stop talking with Russia\"\" and then suffered failure in UN?\"\" and \"Why is it significantly harder to be a vegetarian in countries like Chile, Japan, and Russia compared with the U.S., despite these countries having a lower meat consumption than the U.S.?\" asking the same thing?\nno\n\nAre the questions \"If I view someone's LinkedIn profile while not logged in, in incognito mode, will the person know it was me?\" and \"Do you have to view someone's full profile on Linkedin in order for them to see you viewed them?\" asking the same thing?\nno\n\nAre the questions \"How can we make a model of a rocket?\" and \"How do I make a model of a rocket?\" asking the same thing?\nyes\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"What is the best gift one can give to their parents?\" and \"What is the best gift we can give to our parents?\" asking the same thing?\nyes\n\nAre the questions \"What is a good web site for online chiropractic CE and chiropractic webinars approved in Iowa?\" and \"What is a good web site for online chiropractic CE and chiropractic webinars?\" asking the same thing?\nno\n\nAre the questions \"Where are training centers for PMP in Bangalore?\" and \"What is the best PMP Training center in Bangalore?\" asking the same thing?\nyes\n\nAre the questions \"\"When will the BHI employees \"\"feel\"\" the effects of the merger?\"\" and \"Did Marissa Mayer fail at turning Yahoo around?\" asking the same thing?\nno\n\nAre the questions \"What adult webcam sites pay models the most?\" and \"How much do webcam models make? Would you pay for one?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"What is jail/prison really like?\" and \"What is prison life like?\" asking the same thing?\nyes\n\nAre the questions \"Why doesn't brain size correlate with intelligence?\" and \"Is the current human brain the optimum size for boundless intelligence or will brain size increase over time as the species continues to evolve?\" asking the same thing?\nno\n\nAre the questions \"What makes someone want to be a detective?\" and \"Do PR professionals rely on journalists?\" asking the same thing?\nno\n\nAre the questions \"Does GIF messages sending, receiving, viewing, storing cause battery drain?\" and \"Why is my tablet battery draining?\" asking the same thing?\nno\n\nAre the questions \"How is the zero-air-void line equation established?\" and \"What is the equation of lines having slope -1?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"Is it worth spending so much money on Iphone?\" and \"Is iPhone really worth spending such loads of money?\" asking the same thing?\nyes\n\nAre the questions \"Should I go to the doctor?\" and \"How often should you go to the doctor?\" asking the same thing?\nno\n\nAre the questions \"\"In Arabic, how do you say \"\"I love you\"\"?\"\" and \"In Arabic, how do you say: he is a good boy?\" asking the same thing?\nno\n\nAre the questions \"What is the proof of purgatory from the bible?\" and \"Catholics: what is the proof of purgatory from the Bible?\" asking the same thing?\nyes\n\nAre the questions \"I'm working as a contractual design engineer for a firearms company in Austria (registered and genuine). Would that affect my student visa process?\" and \"What strikes first time visitors as special or unusual when they arrive in Mogi Das Cruzes, S\u00e3o Paulo, Brazil?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"I am 24. Is it too late to get into medicine?\" and \"Is it too late to go to medical school at 24?\" asking the same thing?\nyes\n\nAre the questions \"Who is the best user to follow on Quora and why?\" and \"Who should I follow on Quora who has really good answers that I could learn from?\" asking the same thing?\nyes\n\nAre the questions \"Why is India failing so miserably in the 2016 Rio Olympics?\" and \"What are the reason of poor performance of India in Rio 2016 while expectations were too high?\" asking the same thing?\nyes\n\nAre the questions \"Is it not a performance penalty to code in pure functional programming languages when the CPU is actually a state-full machine?\" and \"Why do purely functional code always has poorer performance?\" asking the same thing?\nno\n\nAre the questions \"Do Gps apps use data?\" and \"Is there a music app you can use that don't use data after downloading music?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"Is it possible to login to my Gmail account if I lost the password?\" and \"How can I recover my Gmail password without a recovery phone number or email?\" asking the same thing?\nno\n\nAre the questions \"What is meant by Adjusted Net Bank Credit (ANBC) in layman terms?\" and \"What is meant by dollar loss rate in terms of credit cards?\" asking the same thing?\nno\n\nAre the questions \"Do we need smaller states?\" and \"Can India develop faster if bigger states are divided into smaller states?\" asking the same thing?\nyes\n\nAre the questions \"What are the best Italian cooking methods?\" and \"What are the best Italian cooking techniques?\" asking the same thing?\nyes\n\nAre the questions \"Where should I stay in Goa?\" and \"Which is the best hotel to stay in Goa?\" asking the same thing?\nyes\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"What are the job-oriented courses for mechanical engineering freshers?\" and \"What are job oriented courses for mechanical engineers?\" asking the same thing?\nyes\n\nAre the questions \"Is there any facial hair removal cream?\" and \"How do I remove facial hairs?\" asking the same thing?\nno\n\nAre the questions \"When is it recommended to drink your urine?\" and \"Is it safe to drink one's own urine?\" asking the same thing?\nyes\n\nAre the questions \"Since science cannot disprove the existence of God, would that increase the probability one exists?\" and \"What is the most rational evidence, if there is any, of the existence of God?\" asking the same thing?\nno\n\nAre the questions \"How can one root android devices?\" and \"How can I root my Android 5.1 device?\" asking the same thing?\nyes\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"What is the best site to download films?\" and \"Which are best sites to download movies?\" asking the same thing?\nyes\n\nAre the questions \"How effective is scrapping 500 and 1000 rupee notes? Will it reduce black money?\" and \"How will the ban on 500 and 1000 rupee note stop black money?\" asking the same thing?\nyes\n\nAre the questions \"How is satire used in 'Pygmalion' by George Bernard Shaw?\" and \"Is Charlie Hebdo a good satire?\" asking the same thing?\nno\n\nAre the questions \"What is the official position of NDTV on Burhan Wani? Is he a terrorist or not?\" and \"Threats of global warming on business and industry?\" asking the same thing?\nno\n\nAre the questions \"If you fall in love with the person you cheat with, what would you do?\" and \"After being cheated on twice I have lost interest in falling in love. Is this a bad thing?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"What is addresshome.com?\" and \"Jay bazzinotti: do you have any pictures of yourself that you wouldn't mind sharing?\" asking the same thing?\nno\n\nAre the questions \"How can I delete/remove downloaded Enhanced Dictation files on OS X Mavericks?\" and \"How do you install OS X Mavericks on an AMD PC?\" asking the same thing?\nno\n\nAre the questions \"What are the harmful effects of drinking hot water stored in a plastic bottle?\" and \"Are there any harmful effects of drinking hot water regularly?\" asking the same thing?\nno\n\nAre the questions \"What is it like to date an extremely attractive woman?\" and \"How do extremely attractive people affect the workplace?\" asking the same thing?\nno\n\nAre the questions \"Can I study in New Zealand and work in Australia?\" and \"How did the Jews and Christian were treated in Saudi Arabia back then?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"Someone hacked my Instagram account using some type of software. How do I block them?\" and \"How do I hack Instagram account? Someone is using my identity and posting inappropriate post?\" asking the same thing?\nyes\n\nAre the questions \"What is the difference between information systems and information technology?\" and \"What's the difference between Information Technology and Information Systems?\" asking the same thing?\nyes\n\nAre the questions \"How do I become the admin of a WhatsApp group without knowing the other members?\" and \"How do I enter a WhatsApp group and be invisible to other group members?\" asking the same thing?\nno\n\nAre the questions \"Do you consider the BBC's new music site a form of web 1.0 or web 2.0?\" and \"Who are the 5 surprise guests at Web 2.0 Summit?\" asking the same thing?\nno\n\nAre the questions \"What is the technology of double camera in iPhone 7?\" and \"How does the double camera on the iPhone 7+ work, including improving things like depth of field?\" asking the same thing?\nyes\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"Who are these people who still support Arvind Kejriwal? And why?\" and \"Why are people still supporting Arvind Kejriwal?\" asking the same thing?\nno\n\nAre the questions \"What service skype use for video streaming?\" and \"Fibrinogen normal meaning?\" asking the same thing?\nno\n\nAre the questions \"What is ultimate purpose of life?\" and \"What is the purpose of life? Why are we here?\" asking the same thing?\nyes\n\nAre the questions \"Were Gorbachev's facial proportions indicative of a man of low testosterone or high testosterone?\" and \"Were Stalin's facial proportions indicative of a man of low testosterone or high testosterone?\" asking the same thing?\nno\n\nAre the questions \"What are ways to lose belly fat?\" and \"What is the best exercise for belly fat?\" asking the same thing?\nyes\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"Which foods help gain weight?\" and \"What is the best diet to gain weight?\" asking the same thing?\nyes\n\nAre the questions \"What is the weather like in Dubai in August compared to India?\" and \"What is the weather like in Dubai in August compared to Qatar?\" asking the same thing?\nno\n\nAre the questions \"Should I let people know I'm bipolar or not? Why?\" and \"All of my friends and even some of the people I don't even talk to say that I am bipolar. I don't agree with them at all. How do I know if I actually am bipolar?\" asking the same thing?\nno\n\nAre the questions \"Where do I buy bitcoin using PayPal without verification?\" and \"I am under 18. Is there a service similar to PayPal that I can use without parental consent?\" asking the same thing?\nno\n\nAre the questions \"Would ISPs block access to our Google Play or iTunes movies if we didn't have net neutrality?\" and \"What would ISPs block if we didnt have net neutrality?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"Why do people still believe the world is flat?\" and \"Why there are people who still believe that earth is flat?\" asking the same thing?\nyes\n\nAre the questions \"What are the different types of sailboats used for?\" and \"How are the different types of sailboats operated?\" asking the same thing?\nno\n\nAre the questions \"What is the way to increase the height at the age of 21 years?\" and \"Does height increase after 21? How can I get taller?\" asking the same thing?\nyes\n\nAre the questions \"What are some things that make Indians sad?\" and \"What makes Indians sad?\" asking the same thing?\nyes\n\nAre the questions \"Do twin brothers have identical sized penises?\" and \"How do parents tell identical twin babies apart?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "yes\n\nAre the questions \"",
+        "score": false,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Are the questions \"Which are the best romantic movies to watch?\" and \"Which are the best movies to watch?\" asking the same thing?\nno\n\nAre the questions \"What are closed timelike curves?\" and \"What are eternal closed timelike curves?\" asking the same thing?\nyes\n\nAre the questions \"What was the best happening or moment in your life?\" and \"What has been the best moment in your entire life?\" asking the same thing?\nyes\n\nAre the questions \"What is the first process in a divorce?\" and \"What is the process to get divorced in India if you are a Hindu? What is the expected time frame?\" asking the same thing?\nno\n\nAre the questions \"I lived in IL, FL, and CO this year, where should I file my taxes?\" and \"Is it possible to file your taxes from previous years?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"How do biotic and abiotic factors differ?\" and \"How do biotic and abiotic factors compare and contrast?\" asking the same thing?\nyes\n\nAre the questions \"How does the Walk Score work on Zillow?\" and \"How much did Redfin pay for Walk Score?\" asking the same thing?\nno\n\nAre the questions \"Other than the Napoleonic Wars, what were the most devastating wars of the 19th Century?\" and \"I want to travel to Lebanon, Would it affect my visa application to U.S?\" asking the same thing?\nno\n\nAre the questions \"What is the best budget hotels in Shirdi for accommodation of me and my friends in this coming New Year eve in peak season?\" and \"What is the best budget hotels in Jaipur for accommodation of me and my friends in this coming New Year eve in peak season?\" asking the same thing?\nno\n\nAre the questions \"Which are the composite materials that can be used for aircraft?\" and \"What are the advantages of using composite materials?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"My 12.5 year old daughter really wants a phone for Christmas or New year. I would let her get one. Which one out of iPhone 6 or 6s should I get her?\" and \"My 12 year old daughter wants an iPhone but I don't know which one I should get. What should I get her?\" asking the same thing?\nyes\n\nAre the questions \"How do l see who viewed my videos on Instagram?\" and \"How can I see who viewed my video I just posted on Instagram?\" asking the same thing?\nyes\n\nAre the questions \"Why are all handsome men gay?\" and \"Is it true that most handsome men are gay or secretly gay?\" asking the same thing?\nno\n\nAre the questions \"Would NASA consider an underweight person eligible to be an astronaut?\" and \"If Dr. Ambedkar, Mahatma Gandhi, Subhashchandra Bose and Azad have been alive today, which political party they would have joined?\" asking the same thing?\nno\n\nAre the questions \"What is the best English to Spanish translation app?\" and \"What is the best English-Spanish translation app?\" asking the same thing?\nyes\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"How can I write this code?\" and \"How can you write code everyday?\" asking the same thing?\nno\n\nAre the questions \"Do dreadlocks grow faster than normal hair?\" and \"What makes dreadlocks grow faster than normal hair?\" asking the same thing?\nyes\n\nAre the questions \"Do you think that Women in India are well respected?\" and \"Are judges in Indian idol rude?\" asking the same thing?\nno\n\nAre the questions \"How do I predict the stock market?\" and \"Is it possible to predict the stock market?\" asking the same thing?\nyes\n\nAre the questions \"I have a feeling for a girl there, but I'm leaving soon. Should I ask the girl directly if I could send her flowers every month when I'm still here?\" and \"I think I'm developing feelings for a girl. I don't have a chance with her 'cause she has a boyfriend. Should I still tell her before she leaves?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"\"What were your experiences when you had \"\"roll no.1\"\"?\"\" and \"What were your experiences when you had roll no. 1?\" asking the same thing?\nyes\n\nAre the questions \"What is a potential barrier for a p-n junction?\" and \"How can I calculate of n-layer length for p+n junction diode?\" asking the same thing?\nno\n\nAre the questions \"Who's your favourite anime character?\" and \"What is your favourite anime character and why?\" asking the same thing?\nyes\n\nAre the questions \"\"What does \"\"checkpoint required\"\" mean on Instagram?\"\" and \"My Instagram account is not logging in when I search for it checkpoint_required message comes?\" asking the same thing?\nno\n\nAre the questions \"What is the best Stock trading platform?\" and \"What is the best stock trading software?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"Who invented pliers? How were they invented?\" and \"How and why were pliers invented?\" asking the same thing?\nyes\n\nAre the questions \"What is the efficiency of electric motors?\" and \"What is an electric motor?\" asking the same thing?\nno\n\nAre the questions \"Which one is the best romantic movie?\" and \"Which is world's best romantic movie?\" asking the same thing?\nyes\n\nAre the questions \"How do I promote my SoundCloud?\" and \"How can I promote my SoundCloud?\" asking the same thing?\nyes\n\nAre the questions \"Are there any short, male models who are very successful (excluding child models)?\" and \"How does one become a male model?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"I got an AIPMT score f 514 and an AIQ rank of 4167. Which college can I go to?\" and \"I got 630/720 in the AIPMT re-test. Which rank can I possibly get and what colleges along with it?\" asking the same thing?\nno\n\nAre the questions \"How do you define God's will?\" and \"How do you define God?\" asking the same thing?\nno\n\nAre the questions \"At what outdoor temperature can one actually cook an egg on a sidewalk?\" and \"Is boiled water enough to cook an egg?\" asking the same thing?\nno\n\nAre the questions \"What is the most complex animal/organism?\" and \"Who will win a fight between a tiger and a lion?\" asking the same thing?\nno\n\nAre the questions \"What's the DC in the name of Washington DC?\" and \"What does DC stand for in Washington DC?\" asking the same thing?\nyes\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "yes\n\nAre the questions \"",
+        "score": false,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Are the questions \"How can I add text next to an image using HTML?\" and \"How can I add text on top of an image using HTML?\" asking the same thing?\nyes\n\nAre the questions \"Can I substitute flour for cornstarch in recipes?\" and \"If a recipe calls for 2 1/2 cups of flour and you want to make five times the recipe, how much flour do you need?\" asking the same thing?\nno\n\nAre the questions \"How can I hack someone's whatsapp account and change their wallpaper on my phone?\" and \"How do I hack or spy on someone's WhatsApp conversation remotely?\" asking the same thing?\nyes\n\nAre the questions \"How do I download full versions of Korean dramas with English subtitles for free?\" and \"Where do I get to download full korean dramas with English subtitles?\" asking the same thing?\nno\n\nAre the questions \"What do interior designers think of Ikea?\" and \"Why do interior designers travel?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"Why did you fail in life?\" and \"What will you do if you fail in your life?\" asking the same thing?\nno\n\nAre the questions \"Is there any pill you can buy to flush meth out of your system for a drug test?\" and \"Do cranberry supplements help flush meth out of your system?\" asking the same thing?\nyes\n\nAre the questions \"What are the dumbest questions ever asked on Quora?\" and \"What was the first question asked on Quora?\" asking the same thing?\nno\n\nAre the questions \"How can I experience supernatural powers?\" and \"Can I meditate to get supernatural powers?\" asking the same thing?\nno\n\nAre the questions \"What is Fyodor Dostoevsky known for?\" and \"What is Fyodor Dostoevsky famous for?\" asking the same thing?\nyes\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"How do you know when you start to fall in love with someone?\" and \"How can you know if you're in love or just attracted to someone?\" asking the same thing?\nyes\n\nAre the questions \"Have you ever lived with ghosts?\" and \"Have you ever seen any ghost?\" asking the same thing?\nyes\n\nAre the questions \"What are the lyrics of the X-Pac theme song?\" and \"What do the lyrics to the theme song in Coraline mean?\" asking the same thing?\nno\n\nAre the questions \"What do Russian people think of Gorbachev?\" and \"What is the perception of Mikhail Gorbachev among Russians today?\" asking the same thing?\nno\n\nAre the questions \"How do I get my two daughters to clean their room without them knowing It?\" and \"How can I motivate my children to clean their rooms?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"What daily habits can someone adopt to lead a more productive life?\" and \"What daily habits can greatly upgrade life?\" asking the same thing?\nyes\n\nAre the questions \"Is the Indian mainstream media (MSM) one of the worst in the world?\" and \"Is Indian media worst in the world? \" asking the same thing?\nyes\n\nAre the questions \"What is the difference between sugar and jaggery?\" and \"What is the difference in raw sugar and refined sugar?\" asking the same thing?\nno\n\nAre the questions \"How fast could the world's fastest supercomputer brute force crack a password?\" and \"How fast a RAR archive password can be cracked?\" asking the same thing?\nno\n\nAre the questions \"I am going to attend an IOT internship interview at Intel. How should I prepare and present myself?\" and \"I am going to pursue engineering this year. How should I prepare myself for it?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"What are the best riddles by the Riddler (Batman)?\" and \"Who was the best villain in the Nolan Batman films?\" asking the same thing?\nno\n\nAre the questions \"What is social skills to you?\" and \"What are social skills?\" asking the same thing?\nno\n\nAre the questions \"What are advantages and disadvantages of steam engine machines?\" and \"How did the steam engine affect daily life?\" asking the same thing?\nno\n\nAre the questions \"What is wurtz reaction?\" and \"What is a Wurtz reaction?\" asking the same thing?\nyes\n\nAre the questions \"What are next upcoming opportunities (competition) for me?\" and \"Temperature of exit flow in nozzle?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"Do girls also have crush on their teachers?\" and \"Do girls get crushes on their female teachers?\" asking the same thing?\nno\n\nAre the questions \"Which is the best coaching classes for SSC in south Delhi?\" and \"Which is the best coaching institute for SSC CGL preparation in South Delhi?\" asking the same thing?\nyes\n\nAre the questions \"How does Instagram choose a user and make them a suggested user?\" and \"Does the suggested user list that appears when searching in  Instagram mean you have searched for them in the past?\" asking the same thing?\nno\n\nAre the questions \"How do you become more intelligent?\" and \"Will we ever be able to increase person's intelligence?\" asking the same thing?\nno\n\nAre the questions \"Integration of x sin inverse x is?\" and \"Will Windows Mobile revive their business once they can cross the app gap?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"Why do girls post so many selfies?\" and \"Why do women take so many selfies?\" asking the same thing?\nno\n\nAre the questions \"I got C grade in hindi FA-1 exam of class 10.Can i score 10 CGPA in final exam?\" and \"I got C grade in hindi, class 10 FA-1 exam.What is the maximun cgpa i can score in final?\" asking the same thing?\nno\n\nAre the questions \"What's it like having siblings?\" and \"What's it like to have siblings?\" asking the same thing?\nyes\n\nAre the questions \"\"Is a 1.68m tall (~5'6\"\") man considered short in the US? At what height is a guy considered to be short?\"\" and \"Is there any short guy (under 5'5) who is considered to be successful?\" asking the same thing?\nno\n\nAre the questions \"Why do people see manaphy as annoying?\" and \"Why do people find Manaphy annoying?\" asking the same thing?\nyes\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"What are the engineering grade levels in VMware?\" and \"I'm a desktop engineer at Dell now. I want to make a career in VMware. How would it be?\" asking the same thing?\nno\n\nAre the questions \"Why did Amartya Sen get a Nobel Prize?\" and \"If Narendra Modi becomes the next PM, what would be the response coming from Nobel Laureate Mr. Amartya Sen?\" asking the same thing?\nno\n\nAre the questions \"Who named our planet earth, and why earth?\" and \"Who named our planet 'The Earth'?\" asking the same thing?\nyes\n\nAre the questions \"How many men have walked on the moon?\" and \"Was there anybody who went with the first man that walked on the moon?\" asking the same thing?\nno\n\nAre the questions \"How do airplanes fly?\" and \"How do planes fly upside down?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"I am a master's student. I don't have any idea about my thesis topic. I am interested in heat engines and aircraft or space craft?\" and \"In the west ,the old buildings were made of stones while those were made of woods in the east countries\" asking the same thing?\nno\n\nAre the questions \"What was West Germany?\" and \"What was West Germany like in the 1950s?\" asking the same thing?\nno\n\nAre the questions \"What are the major stereotypes people have about Czech Republic and to what extent are they true?\" and \"What are the usual stereotypes about Czech Republic and what are your experiences with Czechs?\" asking the same thing?\nyes\n\nAre the questions \"How can I make myself appear offline on facebook?\" and \"How do you make sure to appear as offline on Facebook?\" asking the same thing?\nyes\n\nAre the questions \"What is the basic difference between inductor and transformer?\" and \"What is the basic difference between inductor and coil?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"\"How should I fill this contract form \"\"Signed this... day of..., 2016\"\"?\"\" and \"Swedish HR is asking me to sign an employee contract which my reporting manager has not yet signed. Should I request them to sign the contract first?\" asking the same thing?\nno\n\nAre the questions \"How do I get into an archaeological survey of India?\" and \"How do I get into Archaeological survey of India?\" asking the same thing?\nyes\n\nAre the questions \"What are the safety precautions on handling shotguns proposed by the NRA in Utah?\" and \"What are the safety precautions on handling shotguns proposed by the NRA in North Dakota?\" asking the same thing?\nyes\n\nAre the questions \"If you would partner up with a big company and get access to their member list, what would the big company want/ask from you in return?\" and \"How do you work your way from a basic employee up to a member of the management in a big company?\" asking the same thing?\nno\n\nAre the questions \"Which US cities have/had a notable hip hop music scene?\" and \"Is it possible to download a low resolution version of a high resolution image from a URL?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"Which is the best website relating to backbend contortion?\" and \"What is a contortionist and how are they able to stretch so much?\" asking the same thing?\nno\n\nAre the questions \"Jimmy Kimmel or Jimmy Fallon?\" and \"Will Jimmy Fallon ever have Jimmy Kimmel on his show?\" asking the same thing?\nno\n\nAre the questions \"What career advice would you give to someone who wants to become a Manufacturing Representative?\" and \"What career advice would you give to someone who wants to become a reporter?\" asking the same thing?\nno\n\nAre the questions \"What are some of the best scientific calculator hacks?\" and \"What are some best scientific calculators for engineering?\" asking the same thing?\nno\n\nAre the questions \"What is the average IQ of a human?\" and \"What is the iq of the average person?\" asking the same thing?\nyes\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"Which is free web host on .tk domains?\" and \"I want to start small business in my village in Bihar?\" asking the same thing?\nno\n\nAre the questions \"Why should someone buy M3M Urbana Premium, Gurgaon?\" and \"Why Should I invest in M3M Urbana Premium Gurgaon?\" asking the same thing?\nyes\n\nAre the questions \"What does Michelle Obama think of Trump's wife plagiarizing her?\" and \"Did Melania Trump's speechwriters plagiarize Michelle Obama's speech? If so, why?\" asking the same thing?\nno\n\nAre the questions \"Will GST change Indian economy?\" and \"How can the GST bill, passed by the Rajyasabha yesterday, boost the Indian economy?\" asking the same thing?\nyes\n\nAre the questions \"What is your favorite Star Wars film?\" and \"My favorite movie from Star Wars was Rogue One, what was yours?\" asking the same thing?\nyes\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"What are the bitter truths of going yo the US for an MS as an Indian? By Nikhil Patel\" and \"What are the bitter truths of going to the US to pursue an MS, as an Indian?\" asking the same thing?\nyes\n\nAre the questions \"How long do convictions stay on record?\" and \"What are some consequences of staying lonely for too long?\" asking the same thing?\nno\n\nAre the questions \"\"Does everyone see an answer as \"\"collapsed\"\" when you downvote one and it becomes collapsed on your side?\"\" and \"List of survey websites that give you money for suveys?\" asking the same thing?\nno\n\nAre the questions \"Are recently used emojis ordered vertically or horizontally?\" and \"Why doesn't Quora allow the use of emoticons?\" asking the same thing?\nno\n\nAre the questions \"What is it like to be a lawyer?\" and \"What's it like to be a lawyer?\" asking the same thing?\nyes\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"What is the best way to approach angel investors in India?\" and \"How can we find angel investors for my first startup in India?\" asking the same thing?\nno\n\nAre the questions \"Why are thin foils used for wrapping chocolate bars?\" and \"Why are very thin foils used for wrapping chocolates?\" asking the same thing?\nyes\n\nAre the questions \"What are the pros and cons of the Industrial Revolution?\" and \"What were the results of the Industrial Revolution?\" asking the same thing?\nyes\n\nAre the questions \"Pens: What makes blue ink better for memorization as opposed to black ink?\" and \"Which fountain pen inks do you use and why?\" asking the same thing?\nno\n\nAre the questions \"What are the molecular building blocks of proteins? What are their functions?\" and \"What are the molecular building blocks of lipids? What are their functions?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "yes\n\nAre the questions \"",
+        "score": false,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Are the questions \"Why should I vote for Trump?\" and \"Why should I vote for Hillary Clinton over Donald Trump?\" asking the same thing?\nno\n\nAre the questions \"When will we cure cancer?\" and \"Can we cure cancer without surgey?\" asking the same thing?\nno\n\nAre the questions \"What's the importance of reading books?\" and \"Importance of reading?\" asking the same thing?\nyes\n\nAre the questions \"How do I build good backlinks for my site?\" and \"How can i buy quality of backlinks for my site?\" asking the same thing?\nno\n\nAre the questions \"What are some of the most common challenges faced by QA/testing teams?\" and \"Software Quality Assurance: What are the major challenges faced by a QA in the agile space?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "yes\n\nAre the questions \"",
+        "score": false,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Are the questions \"Do you like waking up early or staying up late?\" and \"Why do we like to stay up late especially when we have to wake up early?\" asking the same thing?\nno\n\nAre the questions \"Could a terrorist kick open door on a passenger jet?\" and \"Is it possible for a passenger to open the door of an aircraft mid-flight?\" asking the same thing?\nyes\n\nAre the questions \"What is a turnover tax?\" and \"What is turnover?\" asking the same thing?\nno\n\nAre the questions \"How does one move from the UK to the US?\" and \"How can I move from the UK to America?\" asking the same thing?\nyes\n\nAre the questions \"Is Mamta Banerjee a Muslim?\" and \"What is the winning formula of Mamta Banerjee? In-spite of being corrupt, aggressive and violent. Are people too lured by free stuff offered?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"What's white privilege?\" and \"Does white privilege exist?\" asking the same thing?\nyes\n\nAre the questions \"How is the HTC One E9+?\" and \"Does the HTC One E9+ have any issues?\" asking the same thing?\nyes\n\nAre the questions \"What are some bitter truths about engineering in India?\" and \"What has been your most bitter experience in/of India by far?\" asking the same thing?\nno\n\nAre the questions \"How does a person's life change by becoming a nun?\" and \"What are some of the best life-changing books?\" asking the same thing?\nno\n\nAre the questions \"How can I Self Publish Book in Pakistan?\" and \"What is the current location of Indian army on Indo-chinese border in Arunachal Pradesh?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"I rented a movie on Google Play, but it keeps displaying a 'Video Format Not Supported' message. Any assistance?\" and \"Inserted a m4V movie using the video tag. Plays in chrome and Safari but not in Firefox. I get no error message saying that it is not supported. Just a gray box. Any ideas why?\" asking the same thing?\nno\n\nAre the questions \"How do I know that I am a psychopath?\" and \"How do you know if someone is a psychopath? I am feeling like I am a psychopath of some sort? I don't feel anything about my friends or people I know?\" asking the same thing?\nyes\n\nAre the questions \"Who attended a coding bootcamp in India? How was the experience?\" and \"Has anyone in India attended a coding bootcamp? How was the experience? Did you get a job afterwards?\" asking the same thing?\nyes\n\nAre the questions \"How genesis can be used to deploy cloud foundry?\" and \"How do I deploy web application in a private cloud open nebula?\" asking the same thing?\nno\n\nAre the questions \"How do I install Windows 8 in a MacBook?\" and \"How do I install Windows 7 in a MacBook Pro?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"What is funniest joke you've ever heard?\" and \"What is the best joke you've ever hear?\" asking the same thing?\nyes\n\nAre the questions \"Does milk flush the meth out of your system?\" and \"Do cranberry supplements help flush meth out of your system?\" asking the same thing?\nyes\n\nAre the questions \"What does it mean if a dog vomits white foam?\" and \"What does it mean if my dog is throwing up white foam?\" asking the same thing?\nyes\n\nAre the questions \"What is the average length and girth of the average dildo bought in America and worldwide? What does the distribution of length and girth look like? How popular are very large and small ones?\" and \"What penis size do women prefer?\" asking the same thing?\nno\n\nAre the questions \"What is Amazon's unique value proposition?\" and \"What is the unique value proposition of Barack Obama?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"What are good survey questions?\" and \"What are the most interesting survey questions on Quora?\" asking the same thing?\nno\n\nAre the questions \"How did you lighten your dark underarm?\" and \"How do I lighten dark underarms?\" asking the same thing?\nyes\n\nAre the questions \"Is there a way to see answers on a web page using the Inspect Element tool?\" and \"Is it possible to download PDFs from a web page using an inspect element?\" asking the same thing?\nno\n\nAre the questions \"Is the Brahma of Hinduism, Abraham of Christianity, and Ibrahim of Islam, the same? Why the differences in approach to each of the religions?\" and \"Are both Brahma and Saraswati & Abraham and Sarah the same?\" asking the same thing?\nyes\n\nAre the questions \"What is the most dense material on Earth? Have there been denser materials discovered on other planets?\" and \"What is the most resistant material on earth?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"How does 5 stroke engine works?\" and \"How does a 5 stroke engine works?\" asking the same thing?\nyes\n\nAre the questions \"What are some lesser known facts about you?\" and \"What are some lesser known facts about Micromax?\" asking the same thing?\nno\n\nAre the questions \"What is the real mystery behind Padmanabhaswamy Temple's seventh vault?\" and \"What is the mystery behind seventh door of Padmanabhaswamy Temple, located in Tiruvananthapuram, Kerala?\" asking the same thing?\nyes\n\nAre the questions \"What are some of the best websites to watch and download anime?\" and \"What are the best sites to watch TV shows?\" asking the same thing?\nno\n\nAre the questions \"What should I choose, EE or CS? I know machine learning and deep learning are in but I love designing electronic circuits.\" and \"Will Deep Learning replace all other kinds of machine learning?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"What is the Best textbook in histology?\" and \"Hello I am a first year medical student and I would like the titles of the best textbooks in anatomy physiology biochemistry and histology?\" asking the same thing?\nno\n\nAre the questions \"How can I earn money from YouTube?\" and \"How can you make money on YouTube?\" asking the same thing?\nyes\n\nAre the questions \"Isn't Donald Trump the logical culmination of where Republican politics has been heading for many years?\" and \"\"Is it fair to say that Donald Trump is \"\"the logical culmination of where Republican politics has been headed for many years now\"\"?\"\" asking the same thing?\nyes\n\nAre the questions \"How can a 13 year old make money?\" and \"Money (kids): How can a 10-year-old make money?\" asking the same thing?\nno\n\nAre the questions \"What are some recent innovations in ergonomics?\" and \"What is the best position of neck while sleeping?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"How can I use Omegle on my iPod Touch and how is it compared to using Roundchat?\" and \"How can I use Omegle on my iPod Touch and how is it compared to using Lollichat?\" asking the same thing?\nno\n\nAre the questions \"How do I fly?\" and \"How can one fly in their dreams?\" asking the same thing?\nno\n\nAre the questions \"Internet speed has suddenly dropped. Is there any preference setting that must have been changed? I use a Panasonic Eluga S Mini, with Vodafone 2G.\" and \"Has anyone successfully used a camcorder with a mini-HDMI output for a webcam on a powerful Windows PC? I'm looking at the Panasonic, HDC-TM700 ($751)?\" asking the same thing?\nno\n\nAre the questions \"Why do some people dislike shaking hands?\" and \"I am a student and feeling annoyed to my family because of their behaviour. I can't focus on my studies. Suggestion?\" asking the same thing?\nno\n\nAre the questions \"Why do people prefer Intel processors rather than AMD processors?\" and \"When should someone prefer Intel processors over AMD processors, and vice versa?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Are the questions \"How do I unlock a skeleton lock without a key?\" and \"How do I unlock a lock without the key?\" asking the same thing?\nno\n\nAre the questions \"What is the best website for the preparation of eLitmus?\" and \"What are the best sites for preparing for the GMAT?\" asking the same thing?\nno\n\nAre the questions \"How many countries produce donkey skin in Africa?\" and \"Which countries were involved in the scramble for Africa?\" asking the same thing?\nno\n\nAre the questions \"How can you define maturity?\" and \"What is maturity? Is it only the physical change?\" asking the same thing?\nyes\n\nAre the questions \"How many times in a week do people have sex?\" and \"How many times a week should I have sex with my wife?\" asking the same thing?\nno\n\nAre the questions \"How can I use Reliance Jio sim in Microsoft Lumia 540?\" and \"Poor become rich stories?\" asking the same thing?\n",
+        "target": "no",
+        "generated_output": "no\n\nAre the questions \"",
+        "score": true,
+        "parsed_str": "no"
+    }
+]

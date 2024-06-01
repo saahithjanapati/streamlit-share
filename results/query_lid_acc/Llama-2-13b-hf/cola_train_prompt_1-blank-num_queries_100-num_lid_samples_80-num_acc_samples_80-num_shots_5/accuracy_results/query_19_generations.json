@@ -1,0 +1,562 @@
+[
+    {
+        "prompt": "The quiche and I were cooking.\nIs this example grammatically correct and sensible?\nYes\n\nWould the horse budge if you pushed?\nIs this example grammatically correct and sensible?\nYes\n\nI've never seen the taller man than my father.\nIs this example grammatically correct and sensible?\nNo\n\nWho was it obvious that Plato loved?\nIs this example grammatically correct and sensible?\nYes\n\nBill left when I am looking at a girl who vomited.\nIs this example grammatically correct and sensible?\nNo\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nI will not be",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "I must eat macaroni.\nIs this example grammatically correct and sensible?\nYes\n\nI borrowed and my sister stole large sums of money from the bank.\nIs this example grammatically correct and sensible?\nYes\n\nAnn may spent her vacation in Italy.\nIs this example grammatically correct and sensible?\nNo\n\nIt was this hat that Tom said Al thought you wanted me to make Jack put on.\nIs this example grammatically correct and sensible?\nYes\n\nI like circus performers.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nThe boys were singing",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "Sally might be pregnant, and I believe the claim that Sheila definitely is pregnant.\nIs this example grammatically correct and sensible?\nYes\n\nTom drives like that man.\nIs this example grammatically correct and sensible?\nYes\n\nSylvia could be slapping Jeff upside the head in martial arts class.\nIs this example grammatically correct and sensible?\nYes\n\nJohn did leave.\nIs this example grammatically correct and sensible?\nYes\n\nThose people, after the party, will not come home.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nCynthia",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "It was a first edition of Richard III that Ann bought for $1000.\nIs this example grammatically correct and sensible?\nYes\n\nIt is a wooden desk.\nIs this example grammatically correct and sensible?\nYes\n\nTourists admire paintings.\nIs this example grammatically correct and sensible?\nYes\n\nThe press conjectured Smith the appointee.\nIs this example grammatically correct and sensible?\nNo\n\nI have never seen this movie.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nComment: I'",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "Ron wanted to wear a tuxedo to the party, but wear a tuxedo to the party Caspar couldn't decide whether to.\nIs this example grammatically correct and sensible?\nNo\n\nWhat Gilgamesh may do is seek Ishtar\nIs this example grammatically correct and sensible?\nYes\n\nWho will John ask for information about summer courses?\nIs this example grammatically correct and sensible?\nYes\n\nI was sitting not under the tree but under the bush\nIs this example grammatically correct and sensible?\nYes\n\nLucy sent a letter to Jane.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nIs it grammatically",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "The mouse jumped out.\nIs this example grammatically correct and sensible?\nYes\n\nWhat exploded when?\nIs this example grammatically correct and sensible?\nYes\n\nJohn wants to study linguistics in near future.\nIs this example grammatically correct and sensible?\nYes\n\nIf he sees a hot dog, he'll bring me one.\nIs this example grammatically correct and sensible?\nYes\n\nEllen said something to Helen.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nI can't",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "John believed Kim to leaving here.\nIs this example grammatically correct and sensible?\nNo\n\nAny doctor will tell you that.\nIs this example grammatically correct and sensible?\nYes\n\nBrown equipped a camera near Jones.\nIs this example grammatically correct and sensible?\nNo\n\nSlamming the door, he ran down the steps.\nIs this example grammatically correct and sensible?\nYes\n\nThe strong winds cleared the skies.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nMy father, who",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "The bag is bulging.\nIs this example grammatically correct and sensible?\nYes\n\nI haven't seen this sentence before.\nIs this example grammatically correct and sensible?\nYes\n\nThere happened a serious accident yesterday.\nIs this example grammatically correct and sensible?\nYes\n\nPel\u00e9 visited his uncle.\nIs this example grammatically correct and sensible?\nYes\n\nJohn told us which book we should review.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nI didn't",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "Susan consented to try to seem to have been kissed.\nIs this example grammatically correct and sensible?\nYes\n\nBill recited his lines poorly.\nIs this example grammatically correct and sensible?\nYes\n\nHe might have left.\nIs this example grammatically correct and sensible?\nYes\n\nJohn thinks that Mary's depiction of himself is wrong.\nIs this example grammatically correct and sensible?\nNo\n\nI wonder if he eats asparagus.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nI was wondering if",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "Who did John think that Bill claimed that Mary suspected that everybody liked?\nIs this example grammatically correct and sensible?\nYes\n\nIt was several young students in that the policeman met the park last night.\nIs this example grammatically correct and sensible?\nNo\n\nJean wants Robert.\nIs this example grammatically correct and sensible?\nYes\n\nWhy he knows the answer!\nIs this example grammatically correct and sensible?\nNo\n\nLee not left.\nIs this example grammatically correct and sensible?\nNo\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nWe will have to",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "The ball rolled the hill.\nIs this example grammatically correct and sensible?\nNo\n\nHeidi thinks that Andy will eat salmon flavored candy bars.\nIs this example grammatically correct and sensible?\nYes\n\nYou can rely on Edward's help.\nIs this example grammatically correct and sensible?\nYes\n\nThe cottage which Mrs Dashwood accepted was very small.\nIs this example grammatically correct and sensible?\nYes\n\nThe proof that this set is recursive is difficult.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nThe ball rolled up",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "The torpedo sank the boat.\nIs this example grammatically correct and sensible?\nYes\n\nJohn is likely to be kept on participants.\nIs this example grammatically correct and sensible?\nNo\n\nThe men would have all been working.\nIs this example grammatically correct and sensible?\nYes\n\nThey told Angelica to arrive early for the award.\nIs this example grammatically correct and sensible?\nYes\n\nI asked who Medea poisoned.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nI told the children",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "Jerry wouldn't read a book by Babel, but Meryl has done so and it was pretty good.\nIs this example grammatically correct and sensible?\nYes\n\nEvidence that he was drunk will be presented.\nIs this example grammatically correct and sensible?\nYes\n\nThe best writer was considered Andrew.\nIs this example grammatically correct and sensible?\nNo\n\nThey said that Tom would pay up, and pay up it is well-known that he did.\nIs this example grammatically correct and sensible?\nYes\n\nLouis said that parts of speech intrigued her.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nThe best writer was",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "To improve yourself would be a good idea.\nIs this example grammatically correct and sensible?\nYes\n\nI wonder when and how often she went that day.\nIs this example grammatically correct and sensible?\nYes\n\nMary claimed that eaten cabbage, Holly hasn't.\nIs this example grammatically correct and sensible?\nYes\n\nI blew it up.\nIs this example grammatically correct and sensible?\nYes\n\nThe maple changed into an oak.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nWe have been on",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "Which trombone did the nurse polish and?\nIs this example grammatically correct and sensible?\nNo\n\nThe cat thinks that he is out of the bag.\nIs this example grammatically correct and sensible?\nYes\n\nI saw the brilliant one.\nIs this example grammatically correct and sensible?\nYes\n\nNo writer, and no playwright, speaks clearly.\nIs this example grammatically correct and sensible?\nYes\n\nThe police read the detainees' rights to them, but not a single one was paying attention.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nThe first and last",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "I've never seen you ate asparagus.\nIs this example grammatically correct and sensible?\nNo\n\nThey, they can't stand each other.\nIs this example grammatically correct and sensible?\nNo\n\nHe was knowing the country well.\nIs this example grammatically correct and sensible?\nNo\n\nBill seems to him to be handsome.\nIs this example grammatically correct and sensible?\nYes\n\nShe's just enough tall.\nIs this example grammatically correct and sensible?\nNo\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nShe's just",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "He bought a Honda.\nIs this example grammatically correct and sensible?\nYes\n\nWilly is taller than Bill by as much as Joe is taller than the Dan.\nIs this example grammatically correct and sensible?\nYes\n\nI lifted onto the table.\nIs this example grammatically correct and sensible?\nNo\n\nThat Jason had arrived was obvious infuriated Medea.\nIs this example grammatically correct and sensible?\nNo\n\nHelen wiped the wall of fingerprints.\nIs this example grammatically correct and sensible?\nNo\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nI was a little",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "The more geniuses John meets, the angrier he gets.\nIs this example grammatically correct and sensible?\nYes\n\nI am drinking lemonade and eating a brownie.\nIs this example grammatically correct and sensible?\nYes\n\nShaving myself is difficult for me.\nIs this example grammatically correct and sensible?\nYes\n\nI shaved.\nIs this example grammatically correct and sensible?\nYes\n\nRon wanted to be wearing a tuxedo to the party, but Caspar didn't know whether to be.\nIs this example grammatically correct and sensible?\nNo\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nI have to be",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "The boys swim.\nIs this example grammatically correct and sensible?\nNo\n\nAmanda drove at the package to New York.\nIs this example grammatically correct and sensible?\nNo\n\nLucy Barnes recounted a story to remember because remember Holly had recounted a story to.\nIs this example grammatically correct and sensible?\nNo\n\nTom told somebody that he wasn't sick.\nIs this example grammatically correct and sensible?\nYes\n\nSally eats the stuff pretty often.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nThe boys swim",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "You are the only person that I can rely on.\nIs this example grammatically correct and sensible?\nNo\n\nhis belief that Mary kissed Bill is mistaken.\nIs this example grammatically correct and sensible?\nYes\n\nI dislike his tickling myself.\nIs this example grammatically correct and sensible?\nNo\n\nThat Jean left is likely.\nIs this example grammatically correct and sensible?\nYes\n\nI expect to soon see the results.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nHe will not be",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "Seven more soldiers came in after ten had left.\nIs this example grammatically correct and sensible?\nYes\n\nWould the men not enjoy that?\nIs this example grammatically correct and sensible?\nYes\n\nNo spy betrayed himself.\nIs this example grammatically correct and sensible?\nYes\n\nHandsome though I know several boys who are, I'm still going to marry Herman.\nIs this example grammatically correct and sensible?\nNo\n\nHe's a fool enough to try it.\nIs this example grammatically correct and sensible?\nNo\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nHe was a poor",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "Jane has more nearly as many too many than Mary.\nIs this example grammatically correct and sensible?\nYes\n\nJohn is prouder of having gone than John expected nobody to believe he would be.\nIs this example grammatically correct and sensible?\nNo\n\nHeather cabled the news.\nIs this example grammatically correct and sensible?\nYes\n\nSonatas are easy to play on this violin.\nIs this example grammatically correct and sensible?\nYes\n\nWho kissed who?\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nThe man who was",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "It was believed that the earth was round.\nIs this example grammatically correct and sensible?\nYes\n\nMickey pointed out that Gary had left.\nIs this example grammatically correct and sensible?\nYes\n\nThe garden is swarming with bees.\nIs this example grammatically correct and sensible?\nYes\n\nThe horse broke Penny's shin.\nIs this example grammatically correct and sensible?\nYes\n\nEllen told a story to Helen.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nThe baby was a",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "I shipped the bicycle from my house at the beach to my house in the mountains.\nIs this example grammatically correct and sensible?\nYes\n\nMartha carved a toy out of wood for the baby.\nIs this example grammatically correct and sensible?\nYes\n\nBill left when that no one else was awake is certain.\nIs this example grammatically correct and sensible?\nNo\n\nMyron is making Suzie's claim that dead is better than red.\nIs this example grammatically correct and sensible?\nNo\n\nThese objections killed the proposal.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nThese objections",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "John deposited some money in the bank on Friday.\nIs this example grammatically correct and sensible?\nYes\n\nTeresa bottle fed the baby soy milk.\nIs this example grammatically correct and sensible?\nYes\n\nNora pushed on the chair.\nIs this example grammatically correct and sensible?\nYes\n\nthe box we put the books in is sealed.\nIs this example grammatically correct and sensible?\nYes\n\nBrown equipped Jones a camera.\nIs this example grammatically correct and sensible?\nNo\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nI have a question",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "This girl in the red coat but no boys will put a picture of Bill on your desk before tomorrow.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia lunched.\nIs this example grammatically correct and sensible?\nYes\n\nWe expect the dentist to examine ourselves.\nIs this example grammatically correct and sensible?\nNo\n\nThe baby is heavy.\nIs this example grammatically correct and sensible?\nYes\n\nJohn convinced the rice to be cooked by Bill.\nIs this example grammatically correct and sensible?\nNo\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nThe baby is heavy",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "Aphrodite wanted Hera to persuade Athena to leave.\nIs this example grammatically correct and sensible?\nYes\n\nKim put the book in the box.\nIs this example grammatically correct and sensible?\nYes\n\nWhich book he read the book was that one.\nIs this example grammatically correct and sensible?\nNo\n\nThe constantly reading Shakespeare satisfied me\nIs this example grammatically correct and sensible?\nNo\n\nI love the food they cook in the halls of residence.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nThe boy, who",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "Spot did not play with his mouse.\nIs this example grammatically correct and sensible?\nYes\n\nMary sang for everyone who wanted to hear her.\nIs this example grammatically correct and sensible?\nYes\n\nJoe is taller than Mary is.\nIs this example grammatically correct and sensible?\nYes\n\nWhy did you kill Pegasus?\nIs this example grammatically correct and sensible?\nYes\n\nDorothy needs her for her skills.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nThe boy and the",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "The man who ordered a hot dog got one.\nIs this example grammatically correct and sensible?\nYes\n\nSally explained the attempt to arrest Holly, but only after I had denied the decision to.\nIs this example grammatically correct and sensible?\nNo\n\nEvery student in Mary's class, whoever they were, happened to vote Republican.\nIs this example grammatically correct and sensible?\nNo\n\nKim gave a dollar to Bobbie and a dime into his pocket.\nIs this example grammatically correct and sensible?\nNo\n\nI put the book on the table.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nI bought a book",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "Do you know the boy whom Mary saw?\nIs this example grammatically correct and sensible?\nYes\n\nCassandra has warned Agamemnon again.\nIs this example grammatically correct and sensible?\nYes\n\nI went to the movies to not pick the shirts up.\nIs this example grammatically correct and sensible?\nNo\n\nThe Dodgers beat the Red Sox and the Giants beat the Dodgers.\nIs this example grammatically correct and sensible?\nYes\n\nBecause the bus drivers were on strike, the commuters travelled by army lorry.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nI think that it",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "We ate at a really fancy restaurant.\nIs this example grammatically correct and sensible?\nYes\n\nthe branch dropped its apple free.\nIs this example grammatically correct and sensible?\nYes\n\nThey praised the volunteers' dedication.\nIs this example grammatically correct and sensible?\nYes\n\nBill confirmed that Roger has eaten the cake.\nIs this example grammatically correct and sensible?\nYes\n\nDale said that the lawn was overgrown.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nThe teacher asked the",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "We elected president the boy's guardian's employer.\nIs this example grammatically correct and sensible?\nYes\n\nThe sun dried the clothes.\nIs this example grammatically correct and sensible?\nYes\n\nJohn thinks Mary left.\nIs this example grammatically correct and sensible?\nYes\n\nI remembered him having kissed Mary.\nIs this example grammatically correct and sensible?\nYes\n\nIn the forest languished an old woman.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nHis mother'",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "That the march should go ahead and that it should be cancelled have been argued by different people at different times.\nIs this example grammatically correct and sensible?\nYes\n\nHe would not finish.\nIs this example grammatically correct and sensible?\nYes\n\nRory will eat the muffins.\nIs this example grammatically correct and sensible?\nYes\n\nYuko rubbed the pizza with a garlic clove.\nIs this example grammatically correct and sensible?\nYes\n\nthe girls likes them.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nMelanie lik",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "Martina is deathly afraid of spiders.\nIs this example grammatically correct and sensible?\nYes\n\nIt is important for the more you to eat, the more careful to be.\nIs this example grammatically correct and sensible?\nNo\n\nGilgamesh might can seek Ishtar\nIs this example grammatically correct and sensible?\nNo\n\nLeigh threw the ball to Lane.\nIs this example grammatically correct and sensible?\nYes\n\nThe butler polished the silver.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nThe wolf a",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "Which picture that John took at the party did he decide to display in his house?\nIs this example grammatically correct and sensible?\nYes\n\nBarbara handed the results to Alan on Tuesday.\nIs this example grammatically correct and sensible?\nYes\n\nJohn is taller than 6 feet.\nIs this example grammatically correct and sensible?\nYes\n\nThis needs investigating.\nIs this example grammatically correct and sensible?\nYes\n\nTagalog is spoken in the Philippines.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nI am going to",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "What sofa will he put the chair between some table and?\nIs this example grammatically correct and sensible?\nNo\n\nBill reading Shakespeare and Maureen singing Schubert satisfies me\nIs this example grammatically correct and sensible?\nYes\n\nThe only girl who it bothers me to wear that old fedora is Annabelle.\nIs this example grammatically correct and sensible?\nNo\n\nFive pounds is a lot of money.\nIs this example grammatically correct and sensible?\nYes\n\nI thought she is pregnant\nIs this example grammatically correct and sensible?\nNo\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nShe is a girl",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "I gave blood.\nIs this example grammatically correct and sensible?\nYes\n\nMay she live forever!\nIs this example grammatically correct and sensible?\nYes\n\nIt was obvious that Plato loved Aster obvious.\nIs this example grammatically correct and sensible?\nYes\n\nBecause in came Aunt Norris, Fanny stopped talking.\nIs this example grammatically correct and sensible?\nNo\n\nI am not certain about when he will come.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nIf you will not",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "Medea tended to appear to be evil.\nIs this example grammatically correct and sensible?\nYes\n\nJohn can to kick the ball.\nIs this example grammatically correct and sensible?\nNo\n\nJohn referred from the building.\nIs this example grammatically correct and sensible?\nNo\n\nHave the kids arrived safely?\nIs this example grammatically correct and sensible?\nYes\n\nThe president declared Smith as press secretary.\nIs this example grammatically correct and sensible?\nNo\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nJohn's parents",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "The mushrooms were sliced by the cook.\nIs this example grammatically correct and sensible?\nYes\n\nI asked who she kissed.\nIs this example grammatically correct and sensible?\nYes\n\nSees he I often Mary?\nIs this example grammatically correct and sensible?\nNo\n\nThey can cry.\nIs this example grammatically correct and sensible?\nYes\n\nThe more people that arrive, the louder that it gets.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nThe dog is che",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "The roof is leaks.\nIs this example grammatically correct and sensible?\nNo\n\nI am ashamed that I neglected you.\nIs this example grammatically correct and sensible?\nYes\n\nI went to the store and bought some whisky.\nIs this example grammatically correct and sensible?\nYes\n\nI detached the handle from the box.\nIs this example grammatically correct and sensible?\nYes\n\nI am fond of circus performers.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nHe was a tall",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "Maxwell isn't half the doctor that polished off the vodka.\nIs this example grammatically correct and sensible?\nNo\n\nThat picture of her pleases Jenny.\nIs this example grammatically correct and sensible?\nYes\n\nWhere did the policeman meet several young students?\nIs this example grammatically correct and sensible?\nYes\n\nThe witch vanished into the forest.\nIs this example grammatically correct and sensible?\nYes\n\nLast year I saw this film several times.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nThe girl was playing",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "Ellen conferred to Helen.\nIs this example grammatically correct and sensible?\nNo\n\nMax offered help to the victims, but they refused his offer.\nIs this example grammatically correct and sensible?\nYes\n\nPaula swatted the cloth into the fly.\nIs this example grammatically correct and sensible?\nNo\n\nThe beaver built a dam.\nIs this example grammatically correct and sensible?\nYes\n\nCats touch easily.\nIs this example grammatically correct and sensible?\nNo\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nComment: I'",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "Ellen talked.\nIs this example grammatically correct and sensible?\nYes\n\nThey expected us to do leave him.\nIs this example grammatically correct and sensible?\nNo\n\nThis girl in the red coat will put a picture of Bill \bon your desk there before tomorrow.\nIs this example grammatically correct and sensible?\nNo\n\nBill's reading Shakespeare and Maureen's singing Schubert satisfy me\nIs this example grammatically correct and sensible?\nYes\n\nWe called my father, who had just turned 60, up.\nIs this example grammatically correct and sensible?\nNo\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nI'm sure",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "Norman Lemming jumped off the cliff and William Lemming did so too.\nIs this example grammatically correct and sensible?\nYes\n\nWe believed John to try to leave the country.\nIs this example grammatically correct and sensible?\nYes\n\nA cheerful welcome was beamed by Sandra.\nIs this example grammatically correct and sensible?\nNo\n\nJohn is afraid of dogs.\nIs this example grammatically correct and sensible?\nYes\n\nWhat I arranged for Jenny was to be present.\nIs this example grammatically correct and sensible?\nNo\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nA number of people",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "To which city and to which conference did Bill go?\nIs this example grammatically correct and sensible?\nYes\n\nWe caught them eaten the bananas.\nIs this example grammatically correct and sensible?\nNo\n\nMary should buy some flowers on Sunday.\nIs this example grammatically correct and sensible?\nYes\n\nIt is in the library.\nIs this example grammatically correct and sensible?\nYes\n\nBrandon read every book that Megan did.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nMary did not",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "Kim and Sandy met.\nIs this example grammatically correct and sensible?\nYes\n\nHandsome though my friends suggested that Mary thinks that Tom is, I still won't date him.\nIs this example grammatically correct and sensible?\nNo\n\nPeter is some disgruntled old pigs in those ditches.\nIs this example grammatically correct and sensible?\nNo\n\nThey asked which students and which teachers would get along together.\nIs this example grammatically correct and sensible?\nYes\n\nMary should know that you must go to the station.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nThe teacher had to",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "I weighed the package ten pounds.\nIs this example grammatically correct and sensible?\nNo\n\nStudents who fail the final exam or who do not do the reading will be executed.\nIs this example grammatically correct and sensible?\nYes\n\nThere arose a great storm.\nIs this example grammatically correct and sensible?\nYes\n\nJosh gave Clay carefully a book.\nIs this example grammatically correct and sensible?\nNo\n\nThe policeman kissed the puppy.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nI have been to",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "The judge saddled the winner with a prize.\nIs this example grammatically correct and sensible?\nYes\n\nMary's happy about her work, and John is about his children.\nIs this example grammatically correct and sensible?\nYes\n\nWater filled the pail.\nIs this example grammatically correct and sensible?\nYes\n\nWhich attorney will give the closing argument hasn't been decided by them.\nIs this example grammatically correct and sensible?\nYes\n\nWhich did you buy the table supported the book?\nIs this example grammatically correct and sensible?\nNo\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nThe teacher didn'",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "$5 will buy you a ticket.\nIs this example grammatically correct and sensible?\nYes\n\nFrank bought the piano for Jane.\nIs this example grammatically correct and sensible?\nYes\n\nFabio asked if had Claus run a marathon.\nIs this example grammatically correct and sensible?\nNo\n\nThe tree was looked after by Kim.\nIs this example grammatically correct and sensible?\nYes\n\nI've never known a smarter dog than Fido.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nThe car was driven",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "Kim asked me that the monkeys are very fond of chocolates.\nIs this example grammatically correct and sensible?\nNo\n\nMaxwell isn't half the doctor that that he would be if he studied is certain.\nIs this example grammatically correct and sensible?\nNo\n\nAmanda carried at the package to New York.\nIs this example grammatically correct and sensible?\nNo\n\nI put the book from Edna to Sally.\nIs this example grammatically correct and sensible?\nNo\n\nCynthia lunched at peaches.\nIs this example grammatically correct and sensible?\nNo\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nCynthia",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "Henry wanted to possibly marry Fanny.\nIs this example grammatically correct and sensible?\nNo\n\nHow slowly would you say he was driving?\nIs this example grammatically correct and sensible?\nYes\n\nThere ran a little boy in the yard.\nIs this example grammatically correct and sensible?\nNo\n\nEllen warned Helen that melons were selling.\nIs this example grammatically correct and sensible?\nYes\n\nThey praised the volunteers for their dedication.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nI am going to",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "Bill can well imagine the more he eats, the fatter getting.\nIs this example grammatically correct and sensible?\nNo\n\nGenie intoned that she was tired\nIs this example grammatically correct and sensible?\nYes\n\nI sent Louis a book.\nIs this example grammatically correct and sensible?\nYes\n\nI enjoy taking a bath.\nIs this example grammatically correct and sensible?\nYes\n\nAnn may spending her vacation in Italy.\nIs this example grammatically correct and sensible?\nNo\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nMy mother is making",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "Water bubbled out of the kettle.\nIs this example grammatically correct and sensible?\nYes\n\nThey met someone who knows the professor.\nIs this example grammatically correct and sensible?\nYes\n\nYou and Kerry have outdone yourselves.\nIs this example grammatically correct and sensible?\nYes\n\nThey have no friend.\nIs this example grammatically correct and sensible?\nYes\n\nI had the strangest feeling that I knew you.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nI can't",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "Fred threw the ball under the porch.\nIs this example grammatically correct and sensible?\nYes\n\nHow do you think that Mary solved the problem?\nIs this example grammatically correct and sensible?\nYes\n\nThe cat was having eaten.\nIs this example grammatically correct and sensible?\nNo\n\nJohn would prefer for the children to finish the oatmeal.\nIs this example grammatically correct and sensible?\nYes\n\nI shaved my face.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nThe cat was having",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "we need to provide two trees and.\nIs this example grammatically correct and sensible?\nYes\n\nHow much fresco did the flood damage?\nIs this example grammatically correct and sensible?\nNo\n\nHilda is such a scholar as you were speaking of just now.\nIs this example grammatically correct and sensible?\nYes\n\nPoseidon was asleep, when the executioner arrived.\nIs this example grammatically correct and sensible?\nYes\n\nJohn will have been eating cake enthusiastically.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nThe ship was w",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "The question of whether John met Mary worries the people who support.\nIs this example grammatically correct and sensible?\nYes\n\nJohn deposited some money in the checking account and Mary did the same thing.\nIs this example grammatically correct and sensible?\nYes\n\nSuddenly there entered the hall an ugly old man.\nIs this example grammatically correct and sensible?\nYes\n\nThe papers removed from the safe have not been found.\nIs this example grammatically correct and sensible?\nYes\n\nTom seems eager for her brother to catch a cold.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nThe question of whether",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "They may grow as much as bamboo high.\nIs this example grammatically correct and sensible?\nNo\n\nBrown equipped a camera at Jones.\nIs this example grammatically correct and sensible?\nNo\n\nLora buttered the toast with unsalted butter.\nIs this example grammatically correct and sensible?\nYes\n\nis out since the following is finite.\nIs this example grammatically correct and sensible?\nYes\n\nI detest him taking a bath.\nIs this example grammatically correct and sensible?\nNo\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nBrown is equ",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "If did Emma leave Hartfield, Mr Woodhouse would be unhappy.\nIs this example grammatically correct and sensible?\nNo\n\nThere lived a man with his grandson.\nIs this example grammatically correct and sensible?\nYes\n\nHe's a so reliable man.\nIs this example grammatically correct and sensible?\nNo\n\nIn the early morning is when I do my best research.\nIs this example grammatically correct and sensible?\nYes\n\nSteve pelted Anna with acorns.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nI've been",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "Lee is believed to not like Kim.\nIs this example grammatically correct and sensible?\nYes\n\nThere was an error in the proof Johns presented.\nIs this example grammatically correct and sensible?\nYes\n\nThe war intensified the poverty.\nIs this example grammatically correct and sensible?\nYes\n\nItaly borders France.\nIs this example grammatically correct and sensible?\nYes\n\nThey confined his remarks to the matter under discussion.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nHe was sentenced",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "The cat seems to be out of the bag.\nIs this example grammatically correct and sensible?\nYes\n\nThe prudish linguist didn't enjoy looking at the internet.\nIs this example grammatically correct and sensible?\nYes\n\nThe harder it has rained, how much faster a flow that appears in the river?\nIs this example grammatically correct and sensible?\nNo\n\nJohn can go to the market on his bike.\nIs this example grammatically correct and sensible?\nYes\n\nBill dried the clothes.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nThe cat seems to",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "That I believed that the sun was out is obvious.\nIs this example grammatically correct and sensible?\nYes\n\nI know a man who Bill saw and Mary liked.\nIs this example grammatically correct and sensible?\nYes\n\nI told Daniel that the exam was cancelled.\nIs this example grammatically correct and sensible?\nYes\n\nSo eminent a scholar as Dr. Lucille Hein was here.\nIs this example grammatically correct and sensible?\nYes\n\nHasn't Henri studied for his exam?\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nI saw a woman",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "I hit the ball.\nIs this example grammatically correct and sensible?\nYes\n\nThe potion boiled over\nIs this example grammatically correct and sensible?\nYes\n\nIt is not true that that Bob was lying was obvious.\nIs this example grammatically correct and sensible?\nYes\n\nStudents objected to the teacher.\nIs this example grammatically correct and sensible?\nYes\n\nEach other's houses appear to the women to be garish.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nThe book is written",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "The jeweller printed the name on the ring.\nIs this example grammatically correct and sensible?\nYes\n\nThe pigs grunts\nIs this example grammatically correct and sensible?\nNo\n\nJohn believes it to be raining.\nIs this example grammatically correct and sensible?\nYes\n\nThe tree trembled.\nIs this example grammatically correct and sensible?\nYes\n\nWho is sailing to Ithaca?\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nThe trees are growing",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "I went out with a girl who that John showed up pleased.\nIs this example grammatically correct and sensible?\nNo\n\nTessa cut.\nIs this example grammatically correct and sensible?\nNo\n\nCan the child read the book?\nIs this example grammatically correct and sensible?\nYes\n\nMichael abandoned an old friend at Mardi Gras\nIs this example grammatically correct and sensible?\nYes\n\nSincerity examined a book.\nIs this example grammatically correct and sensible?\nNo\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nThe book was written",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "Fanny regretted talking to Mary.\nIs this example grammatically correct and sensible?\nYes\n\nI ate fruit\nIs this example grammatically correct and sensible?\nYes\n\nThe roof of the building is leaking.\nIs this example grammatically correct and sensible?\nYes\n\nIt's fine that he paid and apologized, but I don't really care about his gratitude, or the money, or anything.\nIs this example grammatically correct and sensible?\nYes\n\nBoth the workers will wear carnations.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nThe students, including",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "The building is tall and tall.\nIs this example grammatically correct and sensible?\nNo\n\nThe window broke from the force of the wind.\nIs this example grammatically correct and sensible?\nYes\n\nThe umpire called off it.\nIs this example grammatically correct and sensible?\nNo\n\nI like beer, me.\nIs this example grammatically correct and sensible?\nNo\n\nPoseidon appears to own a dragon\nIs this example grammatically correct and sensible?\nNo\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nThe door is open",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "It seems Sonny to love Cher.\nIs this example grammatically correct and sensible?\nNo\n\nA large flag fluttered over the fort.\nIs this example grammatically correct and sensible?\nYes\n\nHe might no could have done it\nIs this example grammatically correct and sensible?\nYes\n\nThat was why she looked so nice.\nIs this example grammatically correct and sensible?\nYes\n\nThey said that Tom was working, and working he is.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nShe was a lady",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "For John to train his horse would be desirable.\nIs this example grammatically correct and sensible?\nYes\n\nIt was so awful a picture as it first seemed.\nIs this example grammatically correct and sensible?\nNo\n\nWho poisoned who?\nIs this example grammatically correct and sensible?\nYes\n\nThe bus hopes to be here at five.\nIs this example grammatically correct and sensible?\nNo\n\nThe box contains many tools.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nThe girl and her",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "Never is any lion majestic.\nIs this example grammatically correct and sensible?\nYes\n\nThe box at once contained the ball.\nIs this example grammatically correct and sensible?\nNo\n\nThe tree changed from a maple into an oak.\nIs this example grammatically correct and sensible?\nYes\n\nAndy promised that we would go.\nIs this example grammatically correct and sensible?\nYes\n\nKim to beat his dog and alienated cats.\nIs this example grammatically correct and sensible?\nNo\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nThe horse was a",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "Chocolate cakes and pies are my favorite desserts.\nIs this example grammatically correct and sensible?\nYes\n\nShe pinched his arm as hard as she could.\nIs this example grammatically correct and sensible?\nYes\n\nThere seems to stab an animal.\nIs this example grammatically correct and sensible?\nNo\n\nThis silver polishes itself.\nIs this example grammatically correct and sensible?\nYes\n\nBill wants John to leave.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nThis is the best",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "Gilgamesh missed Aphrodite\nIs this example grammatically correct and sensible?\nYes\n\nI polished the vase which was from India up.\nIs this example grammatically correct and sensible?\nNo\n\nI asked which city which king invaded.\nIs this example grammatically correct and sensible?\nYes\n\nI sent the devil the salesman.\nIs this example grammatically correct and sensible?\nNo\n\nJenny swallowed the fly\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nCynthia",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "The horse was ridden by the jockey.\nIs this example grammatically correct and sensible?\nYes\n\nWhat John did to the whole wall was paint it.\nIs this example grammatically correct and sensible?\nYes\n\nThey haven't decided which attorney will give the closing argument.\nIs this example grammatically correct and sensible?\nYes\n\nThere is believed to be a sheep in the park.\nIs this example grammatically correct and sensible?\nNo\n\nBruce loved and Kelly hated phonology class.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nI have been waiting",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "The boy's we elected guardian's employer president.\nIs this example grammatically correct and sensible?\nNo\n\nWho do you think Mary said John likes?\nIs this example grammatically correct and sensible?\nYes\n\nMary claimed that hasn't eaten cabbage, Holly.\nIs this example grammatically correct and sensible?\nNo\n\nDust fell on the bed.\nIs this example grammatically correct and sensible?\nYes\n\nOn that meeting I'd like to sit in.\nIs this example grammatically correct and sensible?\nNo\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nWho's the",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "I doubt that Mary reads mysteries.\nIs this example grammatically correct and sensible?\nYes\n\nAphrodite does free animals\nIs this example grammatically correct and sensible?\nYes\n\nThis drug's testing on oneself is too risky.\nIs this example grammatically correct and sensible?\nNo\n\nwhen time will you be there.\nIs this example grammatically correct and sensible?\nNo\n\nCora coiled at the rope around the post.\nIs this example grammatically correct and sensible?\nNo\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nThe doctor is going",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "Julie felt hot\nIs this example grammatically correct and sensible?\nYes\n\nTessa cut herself.\nIs this example grammatically correct and sensible?\nYes\n\nSylvia is slapping Jeff upside the head in martial arts class.\nIs this example grammatically correct and sensible?\nYes\n\nThat chisel carves well.\nIs this example grammatically correct and sensible?\nYes\n\nAnson became the Mayor\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nSylvia is",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "The teacher who that the principal would fire was expected by the reporters is a crusty old jerk.\nIs this example grammatically correct and sensible?\nNo\n\nMary cuts the paper easily.\nIs this example grammatically correct and sensible?\nYes\n\nI did it more in jest than in anger.\nIs this example grammatically correct and sensible?\nYes\n\nBarbara handed the intriguing results of the latest examination to Alan on Tuesday.\nIs this example grammatically correct and sensible?\nYes\n\nthe girls likes themselves.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nI'm going",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "My brother and few Americans meet in Vienna.\nIs this example grammatically correct and sensible?\nNo\n\nBradley left.\nIs this example grammatically correct and sensible?\nYes\n\nThe thief stole the museum of the painting.\nIs this example grammatically correct and sensible?\nNo\n\nThe army's destruction of the palace was a tragedy.\nIs this example grammatically correct and sensible?\nYes\n\nThe reading of Shakespeare satisfied me\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nThe book was so",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "They made him president.\nIs this example grammatically correct and sensible?\nYes\n\nHe kicked you.\nIs this example grammatically correct and sensible?\nYes\n\nWhat did she eat?\nIs this example grammatically correct and sensible?\nYes\n\nthe book with a red cover of poems from Blackwell by Robert Burns takes a very long time to read.\nIs this example grammatically correct and sensible?\nNo\n\nHe made a statement everyone thought was interesting and important.\nIs this example grammatically correct and sensible?\nYes\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "Yes\n\nThe book of po",
+        "score": true,
+        "parsed_str": "Yes"
+    },
+    {
+        "prompt": "I dried the clothes in the sun.\nIs this example grammatically correct and sensible?\nYes\n\nWho did Kim work for and Sandy rely on?\nIs this example grammatically correct and sensible?\nYes\n\nCan I keep the screwdriver just like a carpenter keep the screwdriver?\nIs this example grammatically correct and sensible?\nYes\n\nWhich king did you wonder invaded which city?\nIs this example grammatically correct and sensible?\nYes\n\nplaced the flute on the table.\nIs this example grammatically correct and sensible?\nNo\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nI'm sorry",
+        "score": false,
+        "parsed_str": "No"
+    },
+    {
+        "prompt": "John needed.\nIs this example grammatically correct and sensible?\nNo\n\nReports of the lettering on the covers of which the government prescribes the height are shocking waste of public funds.\nIs this example grammatically correct and sensible?\nNo\n\nThe window was broken by a hammer.\nIs this example grammatically correct and sensible?\nYes\n\nLee will never leave.\nIs this example grammatically correct and sensible?\nYes\n\nthe boy likes herself.\nIs this example grammatically correct and sensible?\nNo\n\nCynthia nibbled .\nIs this example grammatically correct and sensible?\n",
+        "target": "Yes",
+        "generated_output": "No\n\nMary's",
+        "score": false,
+        "parsed_str": "No"
+    }
+]

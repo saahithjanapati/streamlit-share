@@ -672,13 +672,22 @@ with tab5:
 
     st.header("Intrinsic Dimension of Queries")
     datasets = ["boolq", "cola", "mrpc", "qnli", "qqp"]
-    models = ["Llama-2-13b-hf"]
+
+
+    models = ["Llama-2-13b-hf", "Llama-2-70b-hf"]
     query_indices = list(range(50))
 
-    dataset = st.selectbox('Select Dataset', datasets)
+
     model = st.selectbox('Select Model', models)
 
 
+    if model == "Llama-2-13b-hf":
+        datasets = ["cola", "commonsense_qa", "mrpc", "mrpc", "mnli", "qnli", "qqp", "rte"]
+    
+    if model == "Llama-2-70b-hf":
+        datasets = ["boolq", "cola", "mrpc", "qnli", "qqp"]
+
+    dataset = st.selectbox('Select Dataset', datasets)
     selected_queries = st.multiselect('Select Queries to Highlight', query_indices)
 
     folder = find_directory(Path("results") / "query_lid_acc" / model, dataset)
