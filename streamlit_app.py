@@ -469,12 +469,35 @@ with tab4:
 
 
 with tab5:
-    num_queries = 50
-    num_lid_samples = 80
-    num_layers = 41
+
     
     def populate_main(folder, selected_queries):
         # get graph of the LID's of each query corresponding to the dataset
+        num_queries = 50
+        num_lid_samples = 80
+        num_layers = 41
+        num_acc_samples = 80
+
+        print(folder)
+
+        if "13b" in str(folder):
+            print("13B")
+            num_layers = 41
+            num_queries = 100
+            num_lid_samples = 80
+            num_acc_samples = 80
+
+        elif "70b" in str(folder):
+            print("70B")
+            num_layers = 81
+            num_queries = 60
+            num_lid_samples = 100
+            num_acc_samples = 100
+
+        st.write(f"### Number of queries: {num_queries}")
+        st.write(f"### Number of LID samples: {num_lid_samples}")
+        st.write(f"### Number of accuracy samples: {num_acc_samples}")
+
 
         accuracies = []
 
