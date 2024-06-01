@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 import json
 from pathlib import Path
 import numpy as np
+import os
+import pickle
 
 print("Streamlit app is running...")
 
@@ -51,10 +53,45 @@ finetune_options = ["base", "finetuned"]
 st.title('Analyzing ICL with Intrinsic Dimension')
 
 # Creating tabs
-tab1, tab2, tab3, tab4 = st.tabs(["Original Experiments", 
+tab1, tab2, tab3, tab4, tab5 = st.tabs(["Original Experiments", 
                                   "Project Gutenberg Free-Text Generation", 
                                   "Fine-Tuning",
-                                  "ICL with No Query"])
+                                  "ICL with No Query", "Intrinsic Dimension of Queries"])
+
+
+
+def find_directory(base_dir, start_string):
+    """
+    Finds the name of the first directory in base_dir that starts with start_string.
+    
+    Parameters:
+    base_dir (str): The directory to search within.
+    start_string (str): The starting string to match directory names.
+    
+    Returns:
+    str: The name of the first matching directory or None if no match is found.
+    """
+    try:
+        # List all items in the base directory
+        items = os.listdir(base_dir)
+        
+        # Iterate over the items to find directories that start with the given string
+        for item in items:
+            item_path = os.path.join(base_dir, item)
+            if os.path.isdir(item_path) and item.startswith(start_string):
+                return item
+        
+        # If no matching directory is found, return None
+        return None
+    
+    except FileNotFoundError:
+        print(f"Error: The directory '{base_dir}' does not exist.")
+        return None
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        return None
+
+
 
 # Content for each tab
 with tab1:
@@ -429,3 +466,237 @@ with tab4:
         generate_lid_plot_no_query(lid_data)
 
     # Add your content for Experiment 4 here
+
+
+with tab5:
+    num_queries = 50
+    num_lid_samples = 80
+    num_layers = 41
+    
+    def populate_main(folder, selected_queries):
+        # get graph of the LID's of each query corresponding to the dataset
+
+        accuracies = []
+
+        # load the selected query text and accuracy data
+        text_to_display = ""
+
+        for query in range(num_queries):
+
+            query_path = folder / "accuracy_results" / f"query_{query}_results.json"
+            query_data = json.load(open(query_path, "r"))
+            acc = query_data["accuracy"]
+            accuracies.append(acc)
+
+            query_text_path = folder/ "queries.json"
+            query_text = json.load(open(query_text_path, "r"))["queries"][query]
+
+
+            if query not in selected_queries:
+                continue
+
+            text_to_display += f"### Query #{query}\n"
+            text_to_display += f"Text: {query_text}\n"
+            text_to_display += f"Query Accuracy: {acc}\n"
+
+            text_to_display += "\n"
+        st.write(f"### Average Accuracy Across All Queries: {np.average(accuracies): .4f}")
+        st.write(text_to_display)
+
+
+        regression_data_path = folder / "regression_results" / "regression_data.pkl"
+        regression_data = pickle.load(open(regression_data_path, "rb"))
+
+        # make a plot of the LIDs of each query for each layer
+
+
+
+        st.write("### Analyzing Average LID Across Queries")
+
+        layers = list(range(1, num_layers))
+
+
+        fig1_handles = []
+
+        fig1, ax1 = plt.subplots()
+        for query in range(num_queries):
+            query_lids = []
+            for layer in layers:
+                query_lids.append(regression_data[(layer, query)]["avg_lid"])
+
+            if len(selected_queries) == 0 or query in selected_queries:
+                handle, = ax1.plot(query_lids, label=f"Query {query} - Acc: {accuracies[query]}", linewidth=2)
+                
+                if query in selected_queries:
+                    fig1_handles.append(handle)
+            else:
+                ax1.plot(query_lids, alpha=0.1, label=f"Query {query} - Acc: {accuracies[query]}")
+
+            
+        # add x-axis label
+        ax1.set_xlabel("Layer")
+        ax1.set_ylabel("Average LID Across Demonstration Prompts")
+        
+        ax1.set_title("Average LID of Queries for Each Layer")
+        ax1.legend(handles=fig1_handles)
+
+        st.pyplot(fig1)
+
+        ###########################################################################################
+        regression_results_path = folder / "regression_results" / "regression_results.json"
+        regression_results = json.load(open(regression_results_path, "r"))
+
+        # plot the r values across layers for average LID
+        r_values = []
+        for layer in layers:
+            r_values.append(regression_results["avg_lid"][str(layer)]["r_value"])
+        
+
+        # find max r value and corresponding layer
+
+        best_layer = None
+        for layer, r in zip(layers, r_values):
+            if r == max(r_values):
+                # st.write(f"Layer with Highest R Value: {layer} - {r}")
+                best_layer = layer
+
+
+
+        fig3, ax3 = plt.subplots()
+        ax3.plot(layers, r_values, label="R Value")
+        ax3.plot([best_layer], [max(r_values)], 'ro', label="Max R Value")
+        ax3.set_xlabel("Layer")
+        ax3.set_ylabel("R Value")
+        ax3.set_title("R Correlation Coeffecient for Average LID Across Queries")
+        st.pyplot(fig3)
+
+
+
+        ###########################################################################################
+        # create scatterplot of the average LID and accuracy at the fixed layer for all queries
+        accuracies = []
+        avg_lids = []
+        for query in range(num_queries):
+            accuracies.append(regression_data[(best_layer, query)]["accuracy"])
+            avg_lids.append(regression_data[(best_layer, query)]["avg_lid"])
+        
+        fig5, ax5 = plt.subplots()
+        ax5.scatter(avg_lids, accuracies)
+        ax5.set_xlabel(f"Average LID Across Demonstration Prompts")
+        ax5.set_ylabel("Accuracy")
+        ax5.set_title(f"Average LID vs Accuracy at Layer {best_layer} (r = {max(r_values): .4f})")
+        st.pyplot(fig5)
+
+
+        ###########################################################################################
+
+
+        st.write("### Analyzing Variance of LID Measurements Across Queries")
+
+        fig2_handles = []
+        # make a plot of the variance of for each layer for each query
+        fig2, ax2 = plt.subplots()
+        for query in range(num_queries):
+            query_vars = []
+            for layer in layers:
+                query_vars.append(regression_data[(layer, query)]["var_lid"])
+            # ax2.plot(query_vars, label=f"Query {query}")
+
+            if len(selected_queries) == 0 or query in selected_queries:
+                handle,  = ax2.plot(query_vars, label=f"Query {query} - Acc: {accuracies[query]}", linewidth=2)
+
+                if query in selected_queries:
+                    fig2_handles.append(handle)
+            else:
+                ax2.plot(query_vars, alpha=0.1, label=f"Query {query} - Acc: {accuracies[query]}")
+
+        # add x-axis label
+        ax2.set_xlabel("Layer")
+        ax2.set_ylabel("Variance of LID Across Demonstrations")
+
+        ax2.set_title("Variance of LID of Queries for Each Layer")
+
+        # legends
+        ax2.legend(handles=fig2_handles)
+
+        st.pyplot(fig2)
+
+
+        ###########################################################################################
+
+        # plot the r values across layers for average LID
+        r_values = []
+        for layer in layers:
+            r_values.append(regression_results["var_lid"][str(layer)]["r_value"])
+
+
+        best_layer = None
+        #find max r value and corresponding layer
+        for layer, r in zip(layers, r_values):
+            if r == max(r_values):
+                # st.write(f"Layer with Highest R Value: {layer} - {r}")
+                best_layer = layer
+
+        
+        fig4, ax4 = plt.subplots()
+        ax4.plot(layers, r_values, label="R Value")
+        ax4.plot([best_layer], [max(r_values)], 'ro', label="Max R Value")
+        ax4.set_xlabel("Layer")
+        ax4.set_ylabel("R Value")
+        ax4.set_title("R Correlation Coeffecient for Variance of LID Across Queries")
+        st.pyplot(fig4)
+
+        ###########################################################################################
+        # create scatterplot of the average LID and accuracy at the fixed layer for all queries
+        accuracies = []
+        avg_lids = []
+        for query in range(num_queries):
+            accuracies.append(regression_data[(best_layer, query)]["accuracy"])
+            avg_lids.append(regression_data[(best_layer, query)]["var_lid"])
+        
+        fig5, ax5 = plt.subplots()
+        ax5.scatter(avg_lids, accuracies)
+        ax5.set_xlabel(f"Variance of LID Measurments Across Demonstrations")
+        ax5.set_ylabel("Accuracy")
+        ax5.set_title(f"Variance of LID vs Accuracy at Layer {best_layer} (r = {max(r_values): .4f})")
+        st.pyplot(fig5)
+
+        
+        ################################################################################################
+
+
+
+
+
+
+
+    st.header("Intrinsic Dimension of Queries")
+    datasets = ["boolq", "cola", "mrpc", "qnli", "qqp"]
+    models = ["Llama-2-13b-hf"]
+    query_indices = list(range(50))
+
+    dataset = st.selectbox('Select Dataset', datasets)
+    model = st.selectbox('Select Model', models)
+
+
+    selected_queries = st.multiselect('Select Queries to Highlight', query_indices)
+
+    folder = find_directory(Path("results") / "query_lid_acc" / model, dataset)
+    
+    folder = Path("results") / "query_lid_acc" / model / folder
+
+
+    if st.button('Populate', key="populate_button_query_lid"):
+        # populate the data
+        populate_main(folder, selected_queries)
+
+
+
+
+
+    
+
+
+
+
+

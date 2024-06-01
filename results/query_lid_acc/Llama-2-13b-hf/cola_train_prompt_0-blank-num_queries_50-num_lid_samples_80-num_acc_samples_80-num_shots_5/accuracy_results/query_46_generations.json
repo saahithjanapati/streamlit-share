@@ -1,0 +1,562 @@
+[
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nWe yelled ourselves.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe lute which Henry plays and sings madrigals is warped.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe children like to berry in the summer.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWe keep those censored copies of the book hidden to protect the sensibilities of the prudish.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe President thanked any soldier who had fought in the Gulf.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nThe bed was unmade.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWhy do you think he left?\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWhat do you believe that iron is to be a fact well known to virtually everybody?\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWe think for Bill left.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nHistorians believe FDR to be our most effective president.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "no\n\nDoes the following sentence",
+        "score": false,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nI read his every book.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe person who John asked for help thinks he is foolish.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI sent a book to Louis.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nClyde got a passionate love letter from Stacy.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe boy whose guardian's we elected employer president betrayed us.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nHe could not have been working.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nJohn can kicking the ball.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nHe was hoping for too much.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary received an award from the department.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nJake shipped the box towards Carson.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nThere is bread enough for all of you.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWhat I've always tended to do is to do my own stretches at home.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWhat I arranged was for Jenny to be present.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe more that you eat, the less that you want.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe soup had been being eaten when it got spilled.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nI was hunting game.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nFrances hid the presents from Sally.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nHarriet alternated folk songs and pop songs.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nIt is rumored that he left town.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI demand that John pays more, the more he eat.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nMelissa searched the papers for a clue.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI put the book to Sally.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary should buy some flowers for her mother to arrange.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI polished the vase which was from India up.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe kids in our class have arrived safely.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "no\n\nDoes the following sentence",
+        "score": false,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nHe would not finish.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nGilgamesh must should seek Ishtar\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nCarla shoveled the walk of snow.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nDidn't Sue pass her exam?\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nHeidi said that pictures of herself were embarrassing.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "no\n\nDoes the following sentence",
+        "score": false,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nNo one expected Agamemnon to to win\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWhich poem about Achilles did Homer recite?\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThat I should evaporate is my fondest dream\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nHe became fond of peanuts.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI want all the students who have ever tried to pat Fido to show me their scars.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nI detached the handle from the box.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nCarla poured lemonade into the pitcher.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nSteve tossed the ball.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nHas Bill eaten his tuna?\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary prefers that her ice cream is in a cone.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nI might have eaten some seaweed.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWhat Henry find was Bill sad.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nRoses flowered in the garden.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nthe girls likes herself.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary hired someone.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nHe is afraid of foxes.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWhy he knows the answer!\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nSasha lingered in the museum.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nA striped fish swam in the aquarium.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nHeidi hit herself on the head with a zucchini.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "no\n\nDoes the following sentence",
+        "score": false,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nThe little boy hit the child with a toy.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary criticized him.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nJohn asked whether she left.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nNora brought the book from horne.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe student was hoping for a tool.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nHe bought a bench on which to sit.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI explained that we should fix the sink.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWhy she told him is unclear.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nHe does have been eating.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe more obnoxious Fred is, the less attention you should pay to him.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nBill married with Kathy.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI will if I can work on it.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe fig chuckled\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nOne of the Jewish children is a spunky girl, who gave a black eye to the kid with the German roots before the start of the war.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nNever is any lion majestic.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nKim likes Lee, and to Ronnie.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI liked.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nIn the early morning is when I do my best research.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe foxes seem compatible for the chickens.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nJean never reads this newspaper.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "no\n\nDoes the following sentence",
+        "score": false,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nChris became quite conservative and trying to change their minds.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nYou have presented so elegant a solution that we can only admire it.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nSir Walter Elliott imagined the scene.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI only eat fish drunk raw.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWe believed John to try to leave the country.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nThere are fewer trucks on the motorway this winter.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nYou can rely on Edward's help.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nHe will indeed not endorse the treaty.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThat photograph by Gomez of Pugsley of Lucy's\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI am hoping to get an invitation and optimistic about my chances.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nJulius Caesar murdered.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe room was left angry.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nHumans love to eat those pigs.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nCynthia devoured the pizza .\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe child broke the teapot by accident.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nI sent to you recipes.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nAmanda drove at the package to New York.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWhat the spy became was too friendly with his new contacts.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nBook is available in most countries.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nJohn deposited some money in the bank on Friday.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nOur paycheck contributed.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nSpray the paint onto the wall completely.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWho did you persuade to go?\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe captain named the ship Seafarer.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nZeke ate and cooked the chili.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "no\n\nDoes the following sentence",
+        "score": false,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nJohn believes that Bill saw him.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nDale said that the lawn was overgrown.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nGilgamesh perhaps should be leaving.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe party lasted till midnight.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nSusan hopes Susan to sleep.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nLydia pocketed her pocket with the change.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nTo which man did you talk to?\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThat barn has seven pine trees behind itself.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThey made him president.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe contract is subject for approval by my committee.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "no\n\nDoes the following sentence",
+        "score": false,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nJohn's plan to go abroad is nice.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nIt was over the hill and through the woods that they came running\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe river runs from the lake to the sea.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary send a book.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWhich report that John revised did he submit?\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nThe writers of any of the reports didn't know the answer.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThis boy must not go to school, and his father must not go to school either.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe critics ascribe Shakespeare this play.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nParis is no more\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe music echoed.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nWho did you wonder if came?\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThat the sun was out is obvious.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe room contains little armchair.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nDaniel became a blond.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nJohn saw more horses than Bill saw cows or Pete talked to cats.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nNora pushed her way through the crowd.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nOur love them.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWhen can we register for graduation?\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nHe turned from a prince into a frog.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWhen into the room came Aunt Norris, Fanny stopped talking.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nI will force you to marry no one.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nJessica sprayed paint onto the table.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nSmith envied Jones his good fortune.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThere arrived a tall, red haired and incredibly well dressed man.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nDante accused\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nDuty made them not miss the weekly meetings.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nShe thought it was easy for everyone to fit into the car.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe war intensified the poverty.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWhat you heard was an explosion.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI remember John being discussed, but you recall Sally being.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "no\n\nDoes the following sentence",
+        "score": false,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nOften, any lion is majestic.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe kennel in which Mary keeps drugs and Fido sleeps has been stolen.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nAny woman standing under that tree is Mary's friend.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nKim must baked a cake.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nJohn wrote books.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "no\n\nDoes the following sentence",
+        "score": false,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nFelicia sent the box off the shelf.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nGary and Kevin ran themselves into exhaustion.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe old and new carts banged.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI know how intelligent a dog you bought.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nTony broke the cup against the wall.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "no\n\nDoes the following sentence",
+        "score": false,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nMary managed John to go abroad.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWhat's actually happening in London at the moment is immensely exciting.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI ate some popcorn and drank some soda.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nHave you enough money?\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThese points I'm going to ask Bill to make the old geezer take up later.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nThe box contained the ball.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI don't have almost any potatoes.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI haven't left yet\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nJohn will carefully study Russian.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMaxwell isn't half the doctor that I'm certain that he would be if he studied.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nI did not, as Bill had thought, go to the store.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMickey pointed that Gary had left out.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nPatrick is likely to leave.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nShe made such a better reply.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nColumbus believed the earth to be round.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "no\n\nDoes the following sentence",
+        "score": false,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nThe child was never running to the car.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI asked who saw what.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI know you ate asparagus.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nShe cooked Matt dinner.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nDoes Joe sing?\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nI said.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe inspector analyzed the building's soundness.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nSo elegant a solution as you have presented us with can elicit only admiration.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nFifteen dollars in a week are not much.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nBill gave Sue the book.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nPat is a Republican and proud of it.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nSo intelligent a dog did you buy that everyone gasped.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nJohn remained a student.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWhat table will he put the chair between and some sofa?\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nJohn learned French immediately.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "no\n\nDoes the following sentence",
+        "score": false,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nLouis said that parts of speech intrigued her.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nLinda winked at the audience.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThere was known to everyone.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe umpire called it of.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWho are you gawking at?\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nIt's we go to the meeting, that Sally will tell us when.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nEach man lifted a table.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nSally will stand near Mag, but he won't Holly.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nA man just came in and a woman went out who hate each other like poison and always have.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nDina posed a lawyer.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nNear everyone Angleton did, Dulles stood.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe truck rumbled into the driveway.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nSteve swatted Jennifer.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThat they have completed the course is amazing.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nYes, she.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nI've never seen you ate asparagus.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe horse jumped over the stream.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWe made them take the money.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nA book was handed.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nIt was in 1997 when the IN introduced the alien registration receipt card.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nMary has more friends than two.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThis is the gold that John put under the bathtub.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nEvery boy named a planet.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nJohn eats so much.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI wonder what Mary offered to him.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nI met her who grows peaches.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe child was never deceived.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWhich girl did he give my binoculars?\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nPhyllis lingered Sasha over lunch.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nHe is looked generally on as selfish.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "no\n\nDoes the following sentence",
+        "score": false,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nWho do you regret that you saw?\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nDonna fixed me a sandwich.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMickey slips all the time up.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nJohn told.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe committee hasn't yet made up their mind.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nMoya's football team loved her\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nwhich books about cooking does Henri want to buy?\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWe asked him never to try to call us again.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nCarmen purchased a dress at Bloomingdale's for $50.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWhere did you send the package?\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nDid Merv show up and did you play chess?\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe window broke.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWe love them.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThat ball sang a student.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe inspector analyzed the soundness in the building.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "no\n\nDoes the following sentence",
+        "score": false,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nHe gets angry if John has to wait.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe window was broken by a hammer.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nCynthia ate the peach with a fork.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI enjoy taking a bath.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nJohn will kicked the ball.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nJohn looked up the inside of the chimney.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nTruman visited yesterday you.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nElizabeth regretted that she had met Wickham.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nJohn talked to everybody who came up to him at the party.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI watched the Indians who the man who had been my advisor in my freshman year had advised me to study when I got to Utah talk.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "no\n\nDoes the following sentence",
+        "score": false,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nThe angrier Sue gets, the more Fred admires her.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nHarriet talked to Emma for hours.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI asked Anson if he was happy\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nRay found it frustrating that his policies made little impact on poverty.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nHe bought a refrigerator in which to put the beer.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nJohn kept him behind the garage.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nIt is not entirely obvious whether, Mary listens to the Grateful Dead, she gets depressed.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nDo you have dry socks? claim.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nSo fast did you run that everyone gasped.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nFrank bought the piano for Jane.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "no\n\nDoes the following sentence",
+        "score": false,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nI weighed the package ten pounds.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nSuch an eminent scholar as Dr. Lucille Hein was here.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWho do you think that you saw?\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe cat seems to be out of the bag.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nUnder the bed is a safe place to hide.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "no\n\nDoes the following sentence",
+        "score": false,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nThis hammer won't break the window.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nJohn mentioned to me that the question is an issue.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nPaula spanked her right hand against the naughty child.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe builders destroyed the warehouse with explosives.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI didn't eat any ice cream and any cake.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "no\n\nDoes the following sentence",
+        "score": false,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nThe bus hopes to be here at five.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe shield that saved Achilles life.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nPeople are said to do such crazy things at such high speeds there by Dorothy that I am getting skeptical.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nInto the room sauntered Jeeves.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nDoug blew up it.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nIt was the man that bought the articles from him.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nRon's likely to be on the Web, isn't he?\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThey gave the reports which he had brought with him to me.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nAt least three girls saw anything.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nJohn stayed Kim behind the garage.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nThe letter established his innocence.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI believe the problem to be obvious.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nJohn is wanted to win.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nPaul laughed.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI introduced her to he.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nThe bright green filing cabinet was filled to the brim with the most boring articles from a prestigious journal of linguistics with a moderately large readership.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWhile Holly didn't discuss a report about every boy, she did every girl.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nSue put the books on the table and the records on the chair.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nIt is that he wants to quit school that John told us.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWho do you think you saw?\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "no\n\nDoes the following sentence",
+        "score": false,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nThese abandoned buildings lodged with squatters.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nTamara poured water into the bowl.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nCatherine did her homework.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nEvery boy named every planet.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWe told Tom that he should consult an accountant.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nIt could be more detrimental.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nPigs love truffles.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nJohn is ready for you to inspect bunk.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nJohn felt proud that his son won the game.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nYou may pick any five flowers.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nWho did you arrange for to come?\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe bartender gave John some good beers.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nSketch by his students appeared in the magazine.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI inquired John likes his beer.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nJean moved the table.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nIt is that Bill is honest that John believes.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nIt is important to be more careful, the more you eat.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMr Knightley walked into the drawing room.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nIt is this hat that that he was wearing is certain.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI have often a cold.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "no\n\nDoes the following sentence",
+        "score": false,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nHe began writing poems.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nAlthough in came Aunt Norris, Fanny continued talking.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThey surrounded.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThis girl in the red coat will put a picture of Bill on your desk after the dinner and before tomorrow.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nIt is to Ireland that he is going.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "no\n\nDoes the following sentence",
+        "score": false,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nTo go abroad would be nice.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nSome professor admires every student.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nAliza wriggled her tooth loose.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI am more angry than sad.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe doctor cured Pat of pneumonia.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nJohn coughed.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nIn price soared oil.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nHenry wanted to possibly marry Fanny.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWhat Mary gave was a book to John.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nCalvin has eaten a peanut.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "no\n\nDoes the following sentence",
+        "score": false,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nScientists found that the birds sang well in the evenings, but performed badly in the mornings.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThis item belongs to the student.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nEllen said to Helen.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe school board leader asked the students a question.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nEvery philosopher is sometimes wrong, but he usually doesn't admit it.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nJohn to fix the computer.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nEmma gave bad advice to Harriet.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nHe has will seeing his children.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nJohn made Mary cooking Korean food.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nA boy hit the ball.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "no\n\nDoes the following sentence",
+        "score": false,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nThe teacher ordered the two boys both to pay close attention.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nIf I can work on it, I will.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nHe I often sees Mary.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nA critic thinks that every book is readable.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWhich city does Fred think that you believe that John lives in?\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nHer indiscretions were made light of.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThey all agreed to include those matters everyone believed had been excluded from the Treaty.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI said this.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nGilgamesh hasn't left\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI danced a dance.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nWe proved Smith conclusively to be the thief.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI am frightened of tigers and fond of clowns without exception.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nGilgamesh is not reading the cuneiform tablets.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nKim regrets never having seen the movie.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary should buy some flowers on Sunday at 5 o'clock.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nMary swam five more laps than Joan swam.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nA hundred men lifted the table together.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI bought you a ticket for $5.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nJohn was driving the car.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nGwen looked at a fire truck.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nThat I believed that the sun was out is obvious.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMartha carved beautiful toys out of this wood.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nHave in our class the kids arrived safely?\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nPeter will decide that we should review the book.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nYou washed myself.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "no\n\nDoes the following sentence",
+        "score": false,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nThe heavy meal dozed Gloria.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe cattle herded.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe tree gradually dropped its fruit to the ground.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nDuring the early evening, Saturn can be found in the north, while Jupiter rises in the east.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThey elected Graham chairman.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nSharon flinched at the sight of the accident.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWho do you regret that saw you?\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe yolk separated from the white.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI'm sad, as much as I'm angry.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nA variety of styles have been in vogue for the last year.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nAnything hasn't happened to his optimism.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThere was a yellow collar on the dog which the car injured.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nHe can can go\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nBill dried at the clothes.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThere ran through the valley a rushing stream.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nWe were thankful that no one had been hurt.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nJulie maintained that the barman was sober.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThis hat I believe that he was wearing.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nKim has wondered that Gary stayed in the room.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe harder it rains, how much faster do you run?\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nWho has drunk the poison?\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWas it for this that we suffered and toiled?\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nJane Fairfax received a piano from Frank.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nLee asked me how fond of chocolates the monkeys are.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe man chased Fido returned.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nBelieving that the world is flat gives one some solace.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThis \bgirl in the red coat one will put a picture of Bill on your desk before tomorrow.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nNo student, who wears socks, is a swinger.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWe offered a job behind her.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThe girl he met at the departmental party will very surely call him.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "no\n\nDoes the following sentence",
+        "score": false,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nAlan is thinking about that his students are eager to learn English.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nEven Sue said anything.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI've never seen him eat asparagus.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI put books on the table.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nCheryl stood the tall books on the table.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "no\n\nDoes the following sentence",
+        "score": false,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nI shaped a good loaf from this dough.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nGilgamesh doesn't ate the honey\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary has never kissed as tall a man as John is.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI noticed him kissing Mary.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI shaped the dough into a loaf.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "yes\n\nDoes the following sentence",
+        "score": true,
+        "parsed_str": "yes"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nJohn eats more than he sleeps.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThey are intense of Bill.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMy red is refrigerator.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nWhich poem did you go to hear a recital of last night?\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nThis girl in the red coat will put a picture of Bill on your desk.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "no\n\nDoes the following sentence",
+        "score": false,
+        "parsed_str": "no"
+    },
+    {
+        "prompt": "Does the following sentence make sense and use correct English? Please answer yes or no.\nA crowd of people remained in the square.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nConstantly reading Shakespeare satisfied me\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nI kicked him the ball, but the wind blew it astray.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nhis belief that Mary kissed Bill is mistaken.\nyes\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nLee went to the store and crazy.\nno\n\nDoes the following sentence make sense and use correct English? Please answer yes or no.\nMary drank some beer in the barn from 6 to nine.\n",
+        "target": "yes",
+        "generated_output": "no\n\nDoes the following sentence",
+        "score": false,
+        "parsed_str": "no"
+    }
+]
