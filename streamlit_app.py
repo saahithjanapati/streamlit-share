@@ -572,11 +572,10 @@ with tab5:
         # plot the r values across layers for average LID
         r_values = []
         for layer in layers:
-            r_values.append(regression_results["avg_lid"][str(layer)]["r_value"])
+            r_values.append(regression_results["avg_lid"][str(layer)]["r_value"]**2)
         
 
         # find max r value and corresponding layer
-
         best_layer = None
         for layer, r in zip(layers, r_values):
             if r == max(r_values):
@@ -586,11 +585,11 @@ with tab5:
 
 
         fig3, ax3 = plt.subplots()
-        ax3.plot(layers, r_values, label="R Value")
+        ax3.plot(layers, r_values, label="R^2 Value")
         ax3.plot([best_layer], [max(r_values)], 'ro', label="Max R Value")
         ax3.set_xlabel("Layer")
-        ax3.set_ylabel("R Value")
-        ax3.set_title("R Correlation Coeffecient for Average LID Across Queries")
+        ax3.set_ylabel("R^2 Value")
+        ax3.set_title("R^2 Correlation Coeffecient for Average LID Across Queries")
         st.pyplot(fig3)
 
 
@@ -607,7 +606,7 @@ with tab5:
         ax5.scatter(avg_lids, accuracies)
         ax5.set_xlabel(f"Average LID Across Demonstration Prompts")
         ax5.set_ylabel("Accuracy")
-        ax5.set_title(f"Average LID vs Accuracy at Layer {best_layer} (r = {max(r_values): .4f})")
+        ax5.set_title(f"Average LID vs Accuracy at Layer {best_layer} (R^2 = {max(r_values): .4f})")
         st.pyplot(fig5)
 
 
@@ -650,7 +649,7 @@ with tab5:
         # plot the r values across layers for average LID
         r_values = []
         for layer in layers:
-            r_values.append(regression_results["var_lid"][str(layer)]["r_value"])
+            r_values.append(regression_results["var_lid"][str(layer)]["r_value"]**2)
 
 
         best_layer = None
@@ -662,11 +661,11 @@ with tab5:
 
         
         fig4, ax4 = plt.subplots()
-        ax4.plot(layers, r_values, label="R Value")
-        ax4.plot([best_layer], [max(r_values)], 'ro', label="Max R Value")
+        ax4.plot(layers, r_values, label="R^2 Value")
+        ax4.plot([best_layer], [max(r_values)], 'ro', label="Max R^2 Value")
         ax4.set_xlabel("Layer")
-        ax4.set_ylabel("R Value")
-        ax4.set_title("R Correlation Coeffecient for Variance of LID Across Queries")
+        ax4.set_ylabel("R^2 Value")
+        ax4.set_title("R^2 Correlation Coeffecient for Variance of LID Across Queries")
         st.pyplot(fig4)
 
         ###########################################################################################
@@ -681,7 +680,7 @@ with tab5:
         ax5.scatter(avg_lids, accuracies)
         ax5.set_xlabel(f"Variance of LID Measurments Across Demonstrations")
         ax5.set_ylabel("Accuracy")
-        ax5.set_title(f"Variance of LID vs Accuracy at Layer {best_layer} (r = {max(r_values): .4f})")
+        ax5.set_title(f"Variance of LID vs Accuracy at Layer {best_layer} (R^2 = {max(r_values): .4f})")
         st.pyplot(fig5)
 
         
