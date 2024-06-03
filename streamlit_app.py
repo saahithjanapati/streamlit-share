@@ -530,9 +530,6 @@ with tab5:
         regression_data = pickle.load(open(regression_data_path, "rb"))
 
         # make a plot of the LIDs of each query for each layer
-
-
-
         st.write("### Analyzing Average LID Across Queries")
 
         layers = list(range(1, num_layers))
@@ -570,25 +567,32 @@ with tab5:
 
         # plot the r values across layers for average LID
         r_values = []
+        r_squared_values = []
+
         for layer in layers:
-            r_values.append(regression_results["avg_lid"][str(layer)]["r_value"]**2)
+            r_squared_values.append(regression_results["avg_lid"][str(layer)]["r_value"]**2)
+            r_values.append(regression_results["avg_lid"][str(layer)]["r_value"])
         
 
         # find max r value and corresponding layer
         best_layer = None
-        for layer, r in zip(layers, r_values):
-            if r == max(r_values):
+        for layer, r in zip(layers, r_squared_values):
+            if r == max(r_squared_values):
                 # st.write(f"Layer with Highest R Value: {layer} - {r}")
                 best_layer = layer
 
 
 
         fig3, ax3 = plt.subplots()
-        ax3.plot(layers, r_values, label="R^2 Value")
-        ax3.plot([best_layer], [max(r_values)], 'ro', label="Max R Value")
+        ax3.plot(layers, r_values, label="R Value")
+        ax3.plot(layers, r_squared_values, label="R^2 Value")
+
+        ax3.plot([best_layer], [max(r_squared_values)], 'ro')
         ax3.set_xlabel("Layer")
-        ax3.set_ylabel("R^2 Value")
-        ax3.set_title("R^2 Correlation Coeffecient for Average LID Across Queries")
+        ax3.set_ylabel("Value")
+        ax3.set_title("Correlation Coeffecient for Average LID Across Queries")
+        ax3.legend()
+        ax3.legend()
         st.pyplot(fig3)
 
 
@@ -647,24 +651,30 @@ with tab5:
 
         # plot the r values across layers for average LID
         r_values = []
+        r_squared_values = []
         for layer in layers:
-            r_values.append(regression_results["var_lid"][str(layer)]["r_value"]**2)
+            r_values.append(regression_results["var_lid"][str(layer)]["r_value"])
+            r_squared_values.append(regression_results["var_lid"][str(layer)]["r_value"]**2)
 
 
         best_layer = None
         #find max r value and corresponding layer
-        for layer, r in zip(layers, r_values):
-            if r == max(r_values):
+        for layer, r in zip(layers, r_squared_values):
+            if r == max(r_squared_values):
                 # st.write(f"Layer with Highest R Value: {layer} - {r}")
                 best_layer = layer
 
         
         fig4, ax4 = plt.subplots()
-        ax4.plot(layers, r_values, label="R^2 Value")
-        ax4.plot([best_layer], [max(r_values)], 'ro', label="Max R^2 Value")
+        ax4.plot(layers, r_values, label="R Value")
+        ax4.plot(layers, r_squared_values, label="R^2 Value")
+                # ax3.plot([best_layer], [max(r_squared_values)], 'ro')
+        ax4.plot([best_layer], [max(r_squared_values)], 'ro')
+
         ax4.set_xlabel("Layer")
         ax4.set_ylabel("R^2 Value")
-        ax4.set_title("R^2 Correlation Coeffecient for Variance of LID Across Queries")
+        ax4.set_title("Correlation Coeffecient for Variance of LID Across Queries")
+
         st.pyplot(fig4)
 
         ###########################################################################################
@@ -680,6 +690,7 @@ with tab5:
         ax5.set_xlabel(f"Variance of LID Measurments Across Demonstrations")
         ax5.set_ylabel("Accuracy")
         ax5.set_title(f"Variance of LID vs Accuracy at Layer {best_layer} (R^2 = {max(r_values): .4f})")
+        ax5.legend()
         st.pyplot(fig5)
 
         
@@ -808,6 +819,7 @@ with tab6:
         # plot the r values across layers for average LID
         r_values = []
         r_squared_values = []
+
         for layer in layers:
             r_values.append(regression_results["avg_lid"][str(layer)]["r_value"])
             r_squared_values.append(regression_results["avg_lid"][str(layer)]["r_value"]**2)
