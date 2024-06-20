@@ -49,11 +49,47 @@ prompt_modes = ["default", "randomized", "flipped", "same", "same-random"]
 
 finetune_options = ["base", "finetuned"]
 
+
+def get_num_layers(model_name):
+    if model_name == "meta-llama/Llama-2-70b-hf":
+        return 81
+    
+    elif model_name == "meta-llama/Llama-2-13b-hf":
+        return 41
+
+    elif model_name == "meta-llama/Llama-2-7b-hf":
+        return 33
+    
+    elif model_name == "meta-llama/Meta-Llama-3-8B":
+        return 33
+
+    elif model_name == "meta-llama/Meta-Llama-3-70B":
+        return 81
+    
+    elif model_name == "EleutherAI/pythia-1b":
+        return 17
+    
+    elif model_name == "EleutherAI/pythia-1.4b":
+        return 25
+    
+    elif model_name == "EleutherAI/pythia-2.8b":
+        return 33
+    
+    elif model_name == "EleutherAI/pythia-6.9b":
+        return 33
+    
+    elif model_name == "EleutherAI/pythia-12b":
+        return 37
+
+    elif model_name == "mistralai/Mistral-7B-v0.3":
+        return 33
+
 # Title of the app
 st.title('Analyzing ICL with Intrinsic Dimension')
 
 # Creating tabs
-tab1, tab6, tab2, tab3, tab4, tab5 = st.tabs(["Original Experiments", 
+tab1, tab7, tab6, tab2, tab3, tab4, tab5 = st.tabs(["Original Experiments",
+                                "ICL with No Query v2", 
                                 "Intrinsic Dimension of Demonstrations",
                                   "Project Gutenberg Free-Text Generation", 
                                   "Fine-Tuning",
@@ -382,6 +418,58 @@ with tab3:
     if st.button('Fetch Data and Plot', key="fine_tuning"):
         acc_data, lid_data = fetch_data_fine_tuning(model_name, dataset, k_shot, finetune_option, template)
         generate_plots_fine_tuning(acc_data, lid_data)
+
+
+with tab7:
+    st.header("ICL with No Query v2")
+
+    no_q_models = ["meta-llama/Llama-2-7b-hf", "meta-llama/Llama-2-13b-hf", "mistralai/Mistral-7B-v0.3", "meta-llama/Meta-Llama-3-8B", "EleutherAI/pythia-12b", "EleutherAI/pythia-6.9b", "meta-llama/Llama-2-70b-hf", "meta-llama/Meta-Llama-3-70B"]
+    no_q_datasets = ["boolq_train_prompt_0", "cola_train_prompt_0", "commonsense_qa_train_prompt_2", "qnli_train_prompt_0", "qqp_train_prompt_2", "sst2_train_prompt_0", "mrpc_train_prompt_1", "rte_train_prompt_1"]
+    no_q_k_shots = [0, 1, 2, 5, 10]
+
+    model_name = st.multiselect('Select Model(s)', no_q_models, key="icl_no_query-model_v2")
+    dataset = st.selectbox('Select Dataset', no_q_datasets, key="icl_no_query-dataset_v2")
+    k_shot = st.multiselect('Select k-shot', no_q_k_shots, key="icl_no_query-k_shot_v2")
+    id_mode = st.multiselect('Select ID Mode', ["mle", "two_nn"], key="icl_no_query-id_mode_v2")
+
+    path_to_json = Path("results") / "id_results_no_query.json"
+    with path_to_json.open("r") as file:
+        data = json.load(file)
+
+    button = st.button('Fetch Data and Plot', key="icl_no_query_button_v2")
+
+    if button:
+        fig, ax = plt.subplots(figsize=(15, 10))
+
+        for model in model_name:
+            for k in k_shot:
+                for mode in id_mode:
+                    label = f"{model} - {k}-shot - {mode}"
+                    x_values = []
+                    y_values = []
+
+                    num_layers = get_num_layers(model)
+                    for i in range(1, num_layers):
+                        x_values.append(i)
+                        y_values.append(data[f"{model}-{dataset}-{k}-{mode}"][str(i)])
+
+                    ax.plot(x_values, y_values, label=label)
+
+        ax.set_title(f'ID Plot for ICL with No Query v2 - {dataset}')
+        ax.set_xlabel('Layer Index', labelpad=20)
+        ax.set_ylabel('ID', labelpad=20)
+        ax.legend()
+
+        plt.tight_layout()
+        st.pyplot(fig)
+
+    
+
+
+
+
+
+
 
 with tab4:
     st.header("ICL with No Query")
