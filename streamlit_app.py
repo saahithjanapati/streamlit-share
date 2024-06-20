@@ -466,7 +466,7 @@ with tab7:
 
                         ax.plot(x_values, y_values, label=label)
 
-        ax.set_title(f'ID Plot for ICL with No Query v2 - {dataset}')
+        ax.set_title(f'ID Plot for ICLv2 - {dataset}')
         ax.set_xlabel('Layer Index', labelpad=20)
         ax.set_ylabel('ID', labelpad=20)
         ax.legend()
