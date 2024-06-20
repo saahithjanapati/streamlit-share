@@ -425,12 +425,13 @@ with tab7:
 
     no_q_models = ["meta-llama/Llama-2-7b-hf", "meta-llama/Llama-2-13b-hf", "mistralai/Mistral-7B-v0.3", "meta-llama/Meta-Llama-3-8B", "EleutherAI/pythia-12b", "EleutherAI/pythia-6.9b", "meta-llama/Llama-2-70b-hf", "meta-llama/Meta-Llama-3-70B"]
     no_q_datasets = ["boolq_train_prompt_0", "cola_train_prompt_0", "commonsense_qa_train_prompt_2", "qnli_train_prompt_0", "qqp_train_prompt_2", "sst2_train_prompt_0", "mrpc_train_prompt_1", "rte_train_prompt_1"]
-    no_q_k_shots = [0, 1, 2, 5, 10]
+    no_q_k_shots = [1, 2, 5, 10]
 
     model_name = st.multiselect('Select Model(s)', no_q_models, key="icl_no_query-model_v2")
     dataset = st.selectbox('Select Dataset', no_q_datasets, key="icl_no_query-dataset_v2")
     k_shot = st.multiselect('Select k-shot', no_q_k_shots, key="icl_no_query-k_shot_v2")
     id_mode = st.multiselect('Select ID Mode', ["mle", "two_nn"], key="icl_no_query-id_mode_v2")
+    query_present = st.multiselect('Query Present', ["True", "False"], key="icl_no_query-query_present_v2")
 
     path_to_json = Path("results") / "id_results_no_query.json"
     with path_to_json.open("r") as file:
@@ -444,16 +445,26 @@ with tab7:
         for model in model_name:
             for k in k_shot:
                 for mode in id_mode:
-                    label = f"{model} - {k}-shot - {mode}"
-                    x_values = []
-                    y_values = []
+                    for query_present_val in query_present:
 
-                    num_layers = get_num_layers(model)
-                    for i in range(1, num_layers):
-                        x_values.append(i)
-                        y_values.append(data[f"{model}-{dataset}-{k}-{mode}"][str(i)])
+                        if query_present_val == "True":
+                            label = f"{model} - {k}-shot - {mode} - with queries"
+                        else:
+                            label = f"{model} - {k}-shot - {mode} - no queries"
 
-                    ax.plot(x_values, y_values, label=label)
+                        x_values = []
+                        y_values = []
+
+                        num_layers = get_num_layers(model)
+                        for i in range(1, num_layers):
+                            x_values.append(i)
+                            if query_present_val == "True":
+                                y_values.append(data[f"{model}-{dataset}-{k}-{mode}-with-queries"][str(i)])
+                            
+                            else:
+                                y_values.append(data[f"{model}-{dataset}-{k}-{mode}"][str(i)])
+
+                        ax.plot(x_values, y_values, label=label)
 
         ax.set_title(f'ID Plot for ICL with No Query v2 - {dataset}')
         ax.set_xlabel('Layer Index', labelpad=20)
