@@ -432,6 +432,7 @@ with tab7:
     k_shot = st.multiselect('Select k-shot', no_q_k_shots, key="icl_no_query-k_shot_v2")
     id_mode = st.multiselect('Select ID Mode', ["mle", "two_nn"], key="icl_no_query-id_mode_v2")
     query_present = st.multiselect('Query Present', ["True", "False"], key="icl_no_query-query_present_v2")
+    plot_std = st.checkbox('Plot std for MLE Results', key="icl_no_query-plot_std_v2")
 
     path_to_json = Path("results") / "id_results_no_query.json"
     with path_to_json.open("r") as file:
@@ -465,6 +466,16 @@ with tab7:
                                 y_values.append(data[f"{model}-{dataset}-{k}-{mode}"][str(i)])
 
                         ax.plot(x_values, y_values, label=label)
+
+                        if plot_std and mode=="mle":
+                            y_values_std = []
+                            for x in x_values:
+                                if query_present_val == "True":
+                                    y_values_std.append(data[f"{model}-{dataset}-{k}-{mode}-with-queries-std"][str(i)])
+                                else:
+                                    y_values_std.append(data[f"{model}-{dataset}-{k}-{mode}-std"][str(i)])
+
+                            ax.fill_between(x_values, np.array(y_values) - np.array(y_values_std), np.array(y_values) + np.array(y_values_std), alpha=0.2)
 
         ax.set_title(f'ID Plot for ICLv2 - {dataset}')
         ax.set_xlabel('Layer Index', labelpad=20)
