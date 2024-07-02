@@ -6,7 +6,6 @@ import numpy as np
 import os
 import pickle
 
-print("Streamlit app is running...")
 
 PATH_TO_RESULTS_DIR = Path("results/")  # set this to the results directory
 
@@ -220,7 +219,6 @@ with tab1:
         if lid_data != None:
             for key in sorted(lid_data.keys()):
                 values, label = lid_data[key]
-                print(label, values)
 
                 if values == None:
                     st.text(f"No LID data available for {label}")
@@ -254,7 +252,6 @@ with tab2:
     def fetch_lid_data_project_gutenberg(model_name, k_shot):
         # Return a list of lid values for the specified parameter combination
         path_to_results = PATH_TO_RESULTS_DIR / "lid_results" / Path(f"{model_name}-project_gutenberg-{k_shot}-free_lid.json")
-        print(path_to_results)
         if not path_to_results.exists():
             return None
 
@@ -321,10 +318,8 @@ with tab3:
             finetune_option_str = f"-lora_sst-{k_shot}-shot"
 
         path_to_results = PATH_TO_RESULTS_DIR / "accuracy_results" / Path(f"{model_name}") / f"{dataset}-{prompt_mode}-{template}-{k_shot}{finetune_option_str}_results.json"
-        print(path_to_results)
         with path_to_results.open("r") as file:
             data = json.load(file)
-        print(data)
 
         return data["accuracy"]
 
@@ -336,7 +331,6 @@ with tab3:
             finetune_option_str = f"-lora-sst-{k_shot}-shot"
 
         path_to_results = PATH_TO_RESULTS_DIR / "lid_results" / Path(f"{model_name}-{dataset}-{k_shot}-{prompt_mode}-{template}{finetune_option_str}_lid.json")
-        print(path_to_results)
         
         if not path_to_results.exists():
             return None
@@ -395,7 +389,6 @@ with tab3:
         if lid_data != None:
             for key in sorted(lid_data.keys()):
                 values, label = lid_data[key]
-                print(label, values)
 
                 if values == None:
                     st.text(f"No LID data available for {label}")
@@ -433,6 +426,7 @@ with tab7:
     id_mode = st.multiselect('Select ID Mode', ["mle", "two_nn"], key="icl_no_query-id_mode_v2")
     query_present = st.multiselect('Query Present', ["True", "False"], key="icl_no_query-query_present_v2")
     plot_std = st.checkbox('Plot std for MLE Results', key="icl_no_query-plot_std_v2")
+    dim_red = st.multiselect('Select Dimensionality Reduction', ["none", "pca", "umap"], key="icl_no_query-dim_red_v2")
 
     path_to_json = Path("results") / "id_results_no_query.json"
     with path_to_json.open("r") as file:
@@ -440,50 +434,152 @@ with tab7:
 
     button = st.button('Fetch Data and Plot', key="icl_no_query_button_v2")
 
-    if button:
-        fig, ax = plt.subplots(figsize=(15, 10))
 
-        for model in model_name:
-            for k in k_shot:
-                for mode in id_mode:
-                    for query_present_val in query_present:
+if button:
+    fig, ax = plt.subplots(figsize=(15, 10))
 
-                        if query_present_val == "True":
-                            label = f"{model} - {k}-shot - {mode} - with queries"
-                        else:
-                            label = f"{model} - {k}-shot - {mode} - no queries"
+    for model in model_name:
+        for k in k_shot:
+            for mode in id_mode:
+                for query_present_val in query_present:
+                    for dr in dim_red:
+
+                        if dr != 'none' and query_present_val == "False":
+                            continue
+
+                        if dr == 'pca' or dr == 'umap':
+                            label = f"{model} - {k}-shot - {mode} - {dr} - {query_present_val}"
+
+                        elif dr == 'none':
+                            if query_present_val == "True":
+                                label = f"{model} - {k}-shot - {mode} - with queries"
+                            else:
+                                label = f"{model} - {k}-shot - {mode} - no queries"
 
                         x_values = []
                         y_values = []
 
                         num_layers = get_num_layers(model)
+
                         for i in range(1, num_layers):
                             x_values.append(i)
-                            if query_present_val == "True":
-                                y_values.append(data[f"{model}-{dataset}-{k}-{mode}-with-queries"][str(i)])
-                            
-                            else:
-                                y_values.append(data[f"{model}-{dataset}-{k}-{mode}"][str(i)])
 
+                            if dr == 'none':
+                                if query_present_val == "True":
+                                    y_values.append(data[f"{model}-{dataset}-{k}-{mode}-with-queries"][str(i)])
+                                else:
+                                    y_values.append(data[f"{model}-{dataset}-{k}-{mode}"][str(i)])
+
+                            elif dr == 'pca' and query_present_val == "True":
+                                y_values.append(data[f"{model}-{dataset}-{k}-mle_with_queries_pca_100"][str(i)])
+                                
+                            elif dr =='umap' and query_present_val == "True":
+                                y_values.append(data[f"{model}-{dataset}-{k}-mle_with_queries_umap_100"][str(i)])
+
+                        print(len(x_values), y_values[:10], label)
                         ax.plot(x_values, y_values, label=label)
 
-                        if plot_std and mode=="mle":
+                        if plot_std and mode == "mle":
                             y_values_std = []
                             for x in x_values:
-                                if query_present_val == "True":
-                                    y_values_std.append(data[f"{model}-{dataset}-{k}-{mode}-with-queries-std"][str(i)])
-                                else:
-                                    y_values_std.append(data[f"{model}-{dataset}-{k}-{mode}-std"][str(i)])
+                                if dr == 'none':
+                                    if query_present_val == "True":
+                                        y_values_std.append(data[f"{model}-{dataset}-{k}-{mode}-with-queries-std"][str(x)])
+                                    else:
+                                        y_values_std.append(data[f"{model}-{dataset}-{k}-{mode}-std"][str(x)])
+                                elif dr == 'pca':
+                                    if query_present_val == "True":
+                                        y_values_std.append(data[f"{model}-{dataset}-{k}-mle_with_queries_pca_100-std"][str(x)])
+                                elif dr =='umap' and query_present_val == "True":
+                                    y_values_std.append(data[f"{model}-{dataset}-{k}-mle_with_queries_umap_100-std"][str(x)])
 
                             ax.fill_between(x_values, np.array(y_values) - np.array(y_values_std), np.array(y_values) + np.array(y_values_std), alpha=0.2)
 
-        ax.set_title(f'ID Plot for ICLv2 - {dataset}')
-        ax.set_xlabel('Layer Index', labelpad=20)
-        ax.set_ylabel('ID', labelpad=20)
-        ax.legend()
 
-        plt.tight_layout()
-        st.pyplot(fig)
+
+    ax.set_title(f'ID Plot for ICLv2 - {dataset}')
+    ax.set_xlabel('Layer Index', labelpad=20)
+    ax.set_ylabel('ID', labelpad=20)
+    ax.legend()
+
+    plt.tight_layout()
+    st.pyplot(fig)
+
+    # if button:
+    #     fig, ax = plt.subplots(figsize=(15, 10))
+
+    #     for model in model_name:
+    #         for k in k_shot:
+    #             for mode in id_mode:
+    #                 for query_present_val in query_present:
+    #                     for dr in dim_red:
+
+    #                         if dr != 'none' and query_present_val == "False":
+    #                             continue
+
+    #                         if dr == 'pca' or dr == 'umap':
+    #                             label = f"{model} - {k}-shot - {mode} - {dr} - {query_present_val}"
+
+    #                         elif dr == 'none':
+    #                             if query_present_val == "True":
+    #                                 label = f"{model} - {k}-shot - {mode} - with queries"
+    #                             else:
+    #                                 label = f"{model} - {k}-shot - {mode} - no queries"
+
+    #                         x_values = []
+    #                         y_values = []
+
+    #                         num_layers = get_num_layers(model)
+
+    #                         for i in range(1, num_layers):
+    #                             x_values.append(i)
+
+    #                             if dr == 'none':
+    #                                 if query_present_val == "True":
+    #                                     y_values.append(data[f"{model}-{dataset}-{k}-{mode}-with-queries"][str(i)])
+                                    
+    #                                 else:
+    #                                     y_values.append(data[f"{model}-{dataset}-{k}-{mode}"][str(i)])
+
+    #                             elif dr == 'pca':
+    #                                 if query_present_val == "True":
+    #                                     y_values.append(data[f"{model}-{dataset}-{k}-mle_with_queries_pca_100"][str(i)])
+                                    
+
+    #                             elif dr =='umap' and query_present_val == "True":
+    #                                 y_values.append(data[f"{model}-{dataset}-{k}-mle_with_queries_umap_100"][str(i)])
+
+    #                         print(len(x_values), len(y_values), label)
+    #                         ax.plot(x_values, y_values, label=label)
+
+
+    #                         if plot_std and mode=="mle":
+    #                             y_values_std = []
+    #                             for x in x_values:
+
+    #                                 if dr == 'none':
+    #                                     if query_present_val == "True":
+    #                                         y_values_std.append(data[f"{model}-{dataset}-{k}-{mode}-with-queries-std"][str(i)])
+    #                                     else:
+    #                                         y_values_std.append(data[f"{model}-{dataset}-{k}-{mode}-std"][str(i)])
+
+    #                                 elif dr == 'pca':
+    #                                     if query_present_val == "True":
+    #                                         y_values_std.append(data[f"{model}-{dataset}-{k}-mle_with_queries_pca_100-std"][str(i)])
+
+    #                                 elif dr =='umap' and query_present_val == "True":
+    #                                     y_values_std.append(data[f"{model}-{dataset}-{k}-mle_with_queries_umap_100-std"][str(i)])
+
+
+    #                             ax.fill_between(x_values, np.array(y_values) - np.array(y_values_std), np.array(y_values) + np.array(y_values_std), alpha=0.2)
+
+    #     ax.set_title(f'ID Plot for ICLv2 - {dataset}')
+    #     ax.set_xlabel('Layer Index', labelpad=20)
+    #     ax.set_ylabel('ID', labelpad=20)
+    #     ax.legend()
+
+    #     plt.tight_layout()
+    #     st.pyplot(fig)
 
     
 
@@ -510,7 +606,6 @@ with tab4:
             path_to_results = PATH_TO_RESULTS_DIR / "lid_results" / Path(f"{model_name}-{dataset}-{k_shot}-{prompt_mode}-{template}_lid.json")
         else:
             path_to_results = PATH_TO_RESULTS_DIR / "lid_results" / Path(f"{model_name}-{dataset}-{k_shot}-{prompt_mode}-{template}_False_lid.json")
-        print(path_to_results)
         if not path_to_results.exists():
             return None
 
@@ -587,17 +682,13 @@ with tab5:
         num_layers = 41
         num_acc_samples = 80
 
-        print(folder)
-
         if "13b" in str(folder):
-            print("13B")
             num_layers = 41
             num_queries = 100
             num_lid_samples = 80
             num_acc_samples = 80
 
         elif "70b" in str(folder):
-            print("70B")
             num_layers = 81
             num_queries = 60
             num_lid_samples = 100
@@ -842,7 +933,6 @@ with tab6:
     def populate_main(folder, dataset, lid_mode, selected_demonstrations=[]):
 
         folder_str = str(folder)
-        print(folder_str)
 
         if "13b" in folder_str:
             num_layers = 41
@@ -851,13 +941,9 @@ with tab6:
             num_layers = 81
 
         num_demonstrations = int(folder_str.split("num_demonstrations_")[1].split("-")[0])
-        print(num_demonstrations)
 
-        print(folder_str.split("-"))
         num_lid_queries = int(folder_str.split("num_lid_queries_")[1].split("-")[0])
-        print(num_lid_queries)
         num_acc_queries = int(folder_str.split("num_acc_queries_")[1].split("-")[0])
-        print(num_acc_queries)
 
 
 
@@ -1066,7 +1152,6 @@ with tab6:
 
     for dataset in all_datasets:
         folder = find_directory(Path("results") / "demonstration_lid_acc" / model, dataset)
-        print(folder)
 
 
 
@@ -1075,8 +1160,6 @@ with tab6:
         random_results = Path(folder) / "regression_results_random"
         nearest_results = Path(folder) / "regression_results_nearest"
 
-        print(random_results)
-        print(nearest_results)
 
         if not random_results.exists() or not nearest_results.exists():
             continue
