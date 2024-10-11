@@ -59,7 +59,7 @@ def get_intrinsic_dimensions(model, dataset, experiment_type, estimator):
         path_to_id /= f"{estimator}.json"
 
     elif experiment_type == "finetune 10":
-        path_to_id /= f"few-sample-ft/{model}_final/{dataset}/0-shot/"
+        path_to_id /= f"few-sample-ft/{model}_final/{dataset}/10-samples/0/0-shot/"
         path_to_id /= f"{estimator}.json"
 
     try:
