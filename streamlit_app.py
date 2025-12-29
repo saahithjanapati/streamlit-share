@@ -1,13 +1,17 @@
 from __future__ import annotations
 
+import json
 from dataclasses import dataclass
 from pathlib import Path
 import re
+from typing import Any, Iterable
 
 import streamlit as st
 
 PLOTS_DIR = Path(__file__).parent / "plots"
 SUPPORTED_EXTS = {".png", ".jpg", ".jpeg", ".gif", ".svg", ".pdf"}
+DATA_PATH = Path(__file__).parent / "minibatch_samples_20.json"
+HIST_PATH = Path(__file__).parent / "minibatch_score_hist.png"
 
 TEMP_RE = re.compile(
     r"(?:^|[,_\s/-])t(?:emp(?:erature)?)?(?:=)?"
@@ -175,58 +179,141 @@ def render_plot(record: PlotRecord) -> None:
         st.warning(f"Unsupported file type: {ext}")
 
 
+@st.cache_data(show_spinner=False)
+def load_minibatch_samples(data_path: Path, cache_key: float) -> dict[str, Any]:
+    with data_path.open("r", encoding="utf-8") as fh:
+        return json.load(fh)
+
+
+def sort_bin_labels(labels: Iterable[str]) -> list[str]:
+    def parse_range(label: str) -> tuple[float, float]:
+        try:
+            start, end = label.split("-")
+            return float(start), float(end)
+        except Exception:
+            return float("inf"), float("inf")
+
+    return [label for label in sorted(labels, key=parse_range)]
+
+
+def render_coding_experiments_tab() -> None:
+    st.subheader("Coding Experiments")
+    st.write(
+        "Put plot images in the `plots/` folder and include `t=...` or `t0p6`, "
+        "`num_samples=...` or `n200`, and `pass@...` or `pass_at_...` in the filename "
+        "or parent folders so the filters can find them."
+    )
+
+    records = scan_plots()
+    if not records:
+        st.info("No plot files found in `plots/` yet.")
+        return
+
+    eval_names = sorted({record.eval_name for record in records})
+    selected_eval = st.sidebar.selectbox("Evaluation", eval_names)
+
+    filtered = [record for record in records if record.eval_name == selected_eval]
+    if not filtered:
+        st.warning("No plots for this evaluation.")
+        return
+
+    temp_options = sorted_labels_by_temperature(filtered)
+    selected_temp = st.sidebar.selectbox("Temperature", temp_options)
+    filtered = [record for record in filtered if record.temperature_label == selected_temp]
+    if not filtered:
+        st.warning("No plots for this temperature.")
+        return
+
+    num_options = sorted_labels_by_num_samples(filtered)
+    selected_num = st.sidebar.selectbox("Num samples", num_options)
+    filtered = [record for record in filtered if record.num_samples_label == selected_num]
+    if not filtered:
+        st.warning("No plots for this num_samples value.")
+        return
+
+    pass_options = sorted_labels_by_pass_at(filtered)
+    selected_pass = st.sidebar.selectbox("pass@", pass_options)
+    filtered = [record for record in filtered if record.pass_at_label == selected_pass]
+
+    if not filtered:
+        st.warning("No plots for this pass@ value.")
+        return
+
+    if len(filtered) > 1:
+        file_labels = [record.path.relative_to(PLOTS_DIR).as_posix() for record in filtered]
+        selected_file = st.selectbox("Matching plots", file_labels)
+        filtered = [
+            record
+            for record in filtered
+            if record.path.relative_to(PLOTS_DIR).as_posix() == selected_file
+        ]
+
+    for record in filtered:
+        render_plot(record)
+
+
+def render_api_scoring_tab() -> None:
+    st.subheader("API Scoring")
+    st.write(
+        "Explore minibatch score distributions and inspect saved completions by score bin."
+    )
+
+    if HIST_PATH.exists():
+        st.image(str(HIST_PATH), caption="Minibatch score distribution", use_column_width=True)
+    else:
+        st.info("Add `minibatch_score_hist.png` to show the score distribution plot.")
+
+    if not DATA_PATH.exists():
+        st.warning("`minibatch_samples_20.json` is missing.")
+        return
+
+    try:
+        data = load_minibatch_samples(DATA_PATH, DATA_PATH.stat().st_mtime)
+    except json.JSONDecodeError as exc:
+        st.error(f"Could not parse `minibatch_samples_20.json`: {exc}")
+        return
+
+    samples_by_bin: dict[str, list[dict[str, Any]]] = data.get("samples") or {}
+    bin_counts: dict[str, int] = data.get("bin_counts_0_5") or {}
+    if not samples_by_bin:
+        st.info("No samples found in `minibatch_samples_20.json` yet.")
+        return
+
+    bins = sort_bin_labels(samples_by_bin.keys())
+    selected_bin = st.selectbox("Score bin", bins)
+    bin_samples = samples_by_bin.get(selected_bin, [])
+    total_bin_count = bin_counts.get(selected_bin, "unknown")
+    st.caption(f"{len(bin_samples)} saved samples for {selected_bin} (count in dataset: {total_bin_count})")
+
+    if not bin_samples:
+        st.info("No saved completions for this bin.")
+        return
+
+    sample_idx = st.number_input(
+        "Sample to display",
+        min_value=1,
+        max_value=len(bin_samples),
+        value=1,
+        step=1,
+        key=f"{selected_bin}_sample_index",
+    )
+    sample = bin_samples[int(sample_idx) - 1]
+
+    col_score, col_batch, col_minibatch = st.columns(3)
+    col_score.metric("Score", f"{sample.get('score', 0):.3f}")
+    col_batch.metric("Batch ID", str(sample.get("batch_id", "—")))
+    col_minibatch.metric("Minibatch ID", str(sample.get("minibatch_id", "—")))
+
+    st.code(sample.get("text", ""), language="text")
+
+
 st.set_page_config(page_title="Plot Viewer", layout="wide")
 
 st.title("Plot Viewer")
-st.write(
-    "Put plot images in the `plots/` folder and include `t=...` or `t0p6`, "
-    "`num_samples=...` or `n200`, and `pass@...` or `pass_at_...` in the filename "
-    "or parent folders so the filters can find them."
-)
+coding_tab, api_tab = st.tabs(["Coding Experiments", "API Scoring"])
 
-records = scan_plots()
-if not records:
-    st.info("No plot files found in `plots/` yet.")
-    st.stop()
+with coding_tab:
+    render_coding_experiments_tab()
 
-eval_names = sorted({record.eval_name for record in records})
-selected_eval = st.sidebar.selectbox("Evaluation", eval_names)
-
-filtered = [record for record in records if record.eval_name == selected_eval]
-if not filtered:
-    st.warning("No plots for this evaluation.")
-    st.stop()
-
-temp_options = sorted_labels_by_temperature(filtered)
-selected_temp = st.sidebar.selectbox("Temperature", temp_options)
-filtered = [record for record in filtered if record.temperature_label == selected_temp]
-if not filtered:
-    st.warning("No plots for this temperature.")
-    st.stop()
-
-num_options = sorted_labels_by_num_samples(filtered)
-selected_num = st.sidebar.selectbox("Num samples", num_options)
-filtered = [record for record in filtered if record.num_samples_label == selected_num]
-if not filtered:
-    st.warning("No plots for this num_samples value.")
-    st.stop()
-
-pass_options = sorted_labels_by_pass_at(filtered)
-selected_pass = st.sidebar.selectbox("pass@", pass_options)
-filtered = [record for record in filtered if record.pass_at_label == selected_pass]
-
-if not filtered:
-    st.warning("No plots for this pass@ value.")
-    st.stop()
-
-if len(filtered) > 1:
-    file_labels = [record.path.relative_to(PLOTS_DIR).as_posix() for record in filtered]
-    selected_file = st.selectbox("Matching plots", file_labels)
-    filtered = [
-        record
-        for record in filtered
-        if record.path.relative_to(PLOTS_DIR).as_posix() == selected_file
-    ]
-
-for record in filtered:
-    render_plot(record)
+with api_tab:
+    render_api_scoring_tab()
